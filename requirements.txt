@@ -1,0 +1,23 @@
+# ─── ESP32 Voice Command Assistant — Python Dependencies ─────────────
+# Install:  pip install -r requirements.txt
+
+# NLU / AI
+transformers>=4.40
+torch                    # CPU-only wheel is fine; see README
+nltk>=3.8
+
+# Fuzzy file search
+thefuzz[speedup]>=0.22   # includes python-Levenshtein C extension
+
+# Document reading
+PyPDF2>=3.0
+python-docx>=1.1
+
+# Desktop automation
+pyautogui>=0.9
+
+# System monitoring
+psutil>=5.9
+
+# Serial (for future ESP32 integration)
+pyserial>=3.5

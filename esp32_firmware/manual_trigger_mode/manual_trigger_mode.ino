@@ -58,6 +58,7 @@
 #define SILENCE_THRESHOLD 500    // amplitude threshold for silence
 #define SILENCE_DURATION  1000   // ms of silence before ending utterance
 #define MIN_UTTERANCE_MS  500    // minimum utterance length
+#define MAX_RECORDING_MS  3000   // Maximum recording time (3 seconds)
 
 // ─── LED Indicator (optional) ───────────────────────────────────────
 #define LED_PIN           2      // Built-in LED on most ESP32 boards
@@ -126,12 +127,17 @@ void loop() {
       lastSoundTime = millis();
     }
     
-    // Check if utterance has ended (silence detected)
+    // Check if utterance has ended (silence detected OR max time reached)
     unsigned long silenceDuration = millis() - lastSoundTime;
     unsigned long utteranceDuration = millis() - recordingStartTime;
     
-    if (silenceDuration > SILENCE_DURATION && utteranceDuration > MIN_UTTERANCE_MS) {
+    // Stop if: silence detected OR max recording time reached
+    if ((silenceDuration > SILENCE_DURATION && utteranceDuration > MIN_UTTERANCE_MS) ||
+        utteranceDuration >= MAX_RECORDING_MS) {
       // End of utterance
+      if (utteranceDuration >= MAX_RECORDING_MS) {
+        Serial.println("⏱  [TIMEOUT] Max recording time (3s) reached");
+      }
       endRecording();
     }
   }

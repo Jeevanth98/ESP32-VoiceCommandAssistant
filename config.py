@@ -90,7 +90,7 @@ INTENT_CONFIDENCE_THRESHOLD = 0.30
 
 # ─── Serial / ESP32 Settings ────────────────────────────────────────────────
 SERIAL_PORT    = "COM6"      # Your ESP32 COM port
-SERIAL_BAUD    = 115200
+SERIAL_BAUD    = 921600      # High-speed baud for audio streaming (was 115200)
 SERIAL_TIMEOUT = 1           # seconds
 
 # ESP32 audio format (for Whisper STT)

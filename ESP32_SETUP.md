@@ -96,7 +96,7 @@ Connect your **INMP441** I2S microphone to the **ESP32** as follows:
 #define CHANNELS          1      // Mono
 
 // ─── Serial Protocol ────────────────────────────────────────────────
-#define SERIAL_BAUD       115200
+#define SERIAL_BAUD       921600  // High-speed for audio streaming (was 115200)
 #define HEADER_BYTE       0xAA
 #define END_BYTE          0x55
 

@@ -181,6 +181,19 @@ def start_serial_listener(command_handler):
 
                 print(f"\n  [SERIAL] Received {len(audio_buffer)} bytes of audio")
 
+                # --- Save to WAV for debugging ---
+                import wave
+                wav_path = "debug_audio.wav"
+                try:
+                    with wave.open(wav_path, "wb") as wf:
+                        wf.setnchannels(1)           # Mono
+                        wf.setsampwidth(2)           # 16-bit
+                        wf.setframerate(16000)       # 16 kHz
+                        wf.writeframes(bytes(audio_buffer))
+                    print(f"  [DEBUG] Saved audio to {wav_path}. Listen to check quality!")
+                except Exception as e:
+                    print(f"  [DEBUG] Could not save WAV: {e}")
+
                 # Transcribe
                 text = transcribe_audio_bytes(
                     bytes(audio_buffer),

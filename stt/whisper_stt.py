@@ -61,9 +61,9 @@ def transcribe_audio_bytes(
     model = _load_model()
 
     # Convert raw PCM bytes → float32 numpy array normalised to [-1, 1]
-    dtype = np.int16 if bit_depth == 16 else np.int32
-    audio_np = np.frombuffer(pcm_bytes, dtype=dtype).astype(np.float32)
-    audio_np /= np.iinfo(dtype).max  # Normalise to [-1.0, 1.0]
+    # Explicitly force Little-Endian 16-bit to match ESP32 output
+    audio_np = np.frombuffer(pcm_bytes, dtype="<i2").astype(np.float32)
+    audio_np /= 32768.0  # Normalise to [-1.0, 1.0] (max val of 16-bit signed int)
 
     # Whisper expects float32 at 16 kHz.  Resample if needed.
     if sample_rate != 16000:

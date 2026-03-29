@@ -1,0 +1,13 @@
+# ESP32 Voice Command Assistant — Scan Directories
+# ==================================================
+# List directories to index for file search & content mining.
+# One path per line.  Lines starting with # are comments.
+#
+# If this file is empty or absent, the assistant will auto-detect
+# all fixed drives on the system.
+#
+# You can also set the VOICE_ASSISTANT_SCAN_DIRS environment variable
+# (semicolon-separated) to override this file entirely.
+
+D:\
+E:\

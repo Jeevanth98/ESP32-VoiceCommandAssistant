@@ -5,6 +5,13 @@ Pulls out the relevant *operand* for each intent:
   • file_search    → filename / description to search for
   • content_search → keyword(s) + optional target directory hint
   • active_typing  → the text the user wants typed
+  • summarize      → the document query
+  • timer          → duration text
+  • create_file    → (handled directly by create_file.py, raw text passed)
+  • system_power   → (handled directly by system_power.py)
+  • brightness     → (handled directly by brightness.py)
+  • window_mgmt    → (handled directly by window_mgmt.py)
+  • open_url       → (handled directly by open_url.py)
 
 Uses simple regex + heuristic patterns (no heavy NER model needed
 for the structured commands we support).
@@ -13,7 +20,6 @@ for the structured commands we support).
 from __future__ import annotations
 import re
 from dataclasses import dataclass, field
-from nlu.preprocessor import tokenize_raw
 
 
 @dataclass
@@ -49,7 +55,7 @@ _CONTENT_TRIGGERS_ALT = re.compile(
 
 # Patterns for active typing
 _TYPING_TRIGGERS = re.compile(
-    r"(?:write\s+(?:this\s+)?(?:down)?|type\s+(?:this)?|note\s+(?:this\s+)?(?:down)?)\s*:?\s*(.+)",
+    r"(?:write\s*(?:this\s+)?(?:down)?|type\s*(?:this)?|note\s*(?:this\s+)?(?:down)?)\s*:?\s*(.+)",
     re.IGNORECASE,
 )
 
@@ -59,13 +65,18 @@ _SUMMARIZE_TRIGGERS = re.compile(
     re.IGNORECASE,
 )
 
-# Patterns for timer: "set a 10 minute timer"
+# Patterns for timer: "set a 10 minute timer" / "set a timer for 10 minutes"
 _TIMER_TRIGGERS = re.compile(
     r"(?:set|start|begin|create)\s+(?:a\s+)?(.+?)\s*(?:timer|alarm|countdown)",
     re.IGNORECASE,
 )
 _TIMER_TRIGGERS_ALT = re.compile(
     r"(?:timer|alarm|countdown)\s+(?:for\s+|of\s+)?(.+)",
+    re.IGNORECASE,
+)
+# "set a timer for 5 minutes" — timer/alarm/countdown appears BEFORE the duration
+_TIMER_TRIGGERS_FOR = re.compile(
+    r"(?:set|start|begin|create)\s+(?:a\s+)?(?:timer|alarm|countdown)\s+(?:for\s+|of\s+)?(.+)",
     re.IGNORECASE,
 )
 
@@ -114,16 +125,26 @@ def extract(raw_text: str, intent: str | None) -> Entities:
             ent.summarize_query = text
 
     elif intent == "timer":
-        m = _TIMER_TRIGGERS.search(text)
+        # Try "set a timer for 5 minutes" first (timer before duration)
+        m = _TIMER_TRIGGERS_FOR.search(text)
         if m:
             ent.timer_text = m.group(1).strip()
         else:
-            m = _TIMER_TRIGGERS_ALT.search(text)
+            # Try "set a 5 minute timer" (duration before timer)
+            m = _TIMER_TRIGGERS.search(text)
             if m:
                 ent.timer_text = m.group(1).strip()
             else:
-                ent.timer_text = text
+                # Try "timer for 5 minutes" / "countdown 30 seconds"
+                m = _TIMER_TRIGGERS_ALT.search(text)
+                if m:
+                    ent.timer_text = m.group(1).strip()
+                else:
+                    ent.timer_text = text
 
-    # screenshot, gui_control, system_info → no entity needed, raw text is enough
+    # For these intents, the raw text is passed directly to the handler
+    # which does its own parsing:
+    #   create_file, system_power, brightness, window_mgmt, open_url,
+    #   screenshot, gui_control, system_info, open_app, close_app, web_search
 
     return ent

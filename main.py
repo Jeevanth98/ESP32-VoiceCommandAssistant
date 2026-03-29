@@ -6,13 +6,18 @@ Terminal-based input loop for MVP testing (no hardware required).
 Pipeline per command:
   1. Read raw text from terminal (simulates Whisper transcription)
   2. Pre-process with NLTK (stop-word removal + lemmatization)
-  3. Classify intent with BART-MNLI zero-shot model
+  3. Classify intent with TF-IDF + LinearSVC supervised classifier
   4. Extract entities (file name / keyword / text)
   5. Dispatch to the appropriate command handler
+
+Serial mode (--serial):
+  Listens on the configured COM port for raw audio from the ESP32,
+  transcribes with Whisper, then runs the same NLU pipeline.
 """
 
 from __future__ import annotations
 import sys
+import argparse
 
 # ─── NLU imports ─────────────────────────────────────────────────────────────
 from nlu.preprocessor import preprocess
@@ -22,8 +27,8 @@ from nlu.entity_extractor import extract, Entities
 # ─── Command imports ─────────────────────────────────────────────────────────
 from commands import file_search, content_mining, active_typing
 from commands import summarize, screenshot, gui_control, system_info, timer
-from commands import open_app, web_search
-from commands import close_app
+from commands import open_app, web_search, close_app
+from commands import create_file, system_power, brightness, window_mgmt, open_url
 
 import re
 
@@ -34,9 +39,31 @@ _KEYWORD_OVERRIDES = [
     (re.compile(r"\b(play|pause|resume|next\s*track|prev\s*track|volume\s*(up|down)|mute|fullscreen)\b", re.I), "gui_control"),
     (re.compile(r"\b(screenshot|screen\s*capture|capture\s*screen|screen\s*shot)\b", re.I), "screenshot"),
     (re.compile(r"\b(timer|countdown|alarm)\b", re.I), "timer"),
+    # New: file creation
+    (re.compile(r"\b(create|make|new)\s+(?:a\s+)?\w+\s+file\b", re.I), "create_file"),
+    (re.compile(r"\b(create|make|new)\s+\S+\.\w+\s+", re.I), "create_file"),
+    # New: system power
+    (re.compile(r"\block\s+(the\s+)?screen\b|\block\s+(my\s+)?(computer|pc)\b", re.I), "system_power"),
+    (re.compile(r"\b(shut\s*down|shutdown|power\s*off|turn\s*off)\s*(the\s+)?(computer|pc|system)?\b", re.I), "system_power"),
+    (re.compile(r"\b(restart|reboot)\s*(the\s+)?(computer|pc|system)?\b", re.I), "system_power"),
+    (re.compile(r"\b(sleep|hibernate|suspend|standby)\s*(mode)?\b", re.I), "system_power"),
+    (re.compile(r"\b(log\s*off|log\s*out|sign\s*out)\b", re.I), "system_power"),
+    # New: brightness
+    (re.compile(r"\bbright(ness)?\b", re.I), "brightness"),
+    (re.compile(r"\bdim(mer)?\b", re.I), "brightness"),
+    # New: window management
+    (re.compile(r"\b(minimize|minimise|maximize|maximise)\s+(this\s+|the\s+|all\s+)?window", re.I), "window_mgmt"),
+    (re.compile(r"\bsnap\s+(to\s+)?(the\s+)?(left|right)\b", re.I), "window_mgmt"),
+    (re.compile(r"\bshow\s+(the\s+)?desktop\b", re.I), "window_mgmt"),
+    (re.compile(r"\bminimize\s+all\b|\bminimise\s+all\b", re.I), "window_mgmt"),
+    (re.compile(r"\btask\s+view\b", re.I), "window_mgmt"),
+    # New: open URL (domain patterns like "open youtube.com")
+    (re.compile(r"\b(open|go\s+to|visit|navigate\s+to|browse\s+to)\s+\S+\.\w{2,}", re.I), "open_url"),
+    # Existing: open/close app, web search (keep at end for priority)
     (re.compile(r"\b(open|launch|start|run|fire\s+up|boot\s+up)\s+", re.I), "open_app"),
     (re.compile(r"\b(close|quit|exit|kill|stop|terminate|end|shut\s*down|force\s*close)\s+", re.I), "close_app"),
-    (re.compile(r"\b(search\s+(what|who|how|why|where|when|the)|google\b|look\s+up|what\s+is|who\s+is|how\s+to|tell\s+me\s+about|define\b|meaning\s+of)\b", re.I), "web_search"),
+    # Web search: matches both "search vit" and "search what is vit"
+    (re.compile(r"\b(search|google|look\s+up|what\s+is|who\s+is|how\s+to|tell\s+me\s+about|define\b|meaning\s+of)\b", re.I), "web_search"),
 ]
 
 
@@ -61,6 +88,12 @@ COMMAND_MAP = {
     "open_app":       lambda ent: open_app.execute(ent.raw),
     "close_app":      lambda ent: close_app.execute(ent.raw),
     "web_search":     lambda ent: web_search.execute(ent.raw),
+    # New commands
+    "create_file":    lambda ent: create_file.execute(ent.raw),
+    "system_power":   lambda ent: system_power.execute(ent.raw),
+    "brightness":     lambda ent: brightness.execute(ent.raw),
+    "window_mgmt":    lambda ent: window_mgmt.execute(ent.raw),
+    "open_url":       lambda ent: open_url.execute(ent.raw),
 }
 
 
@@ -120,12 +153,19 @@ BANNER = r"""
 ║    • Search what is a lion          (web search)                 ║
 ║    • What's my CPU usage?           (system info)                ║
 ║    • Set a 10 minute timer          (background timer)           ║
+║    • Create a python file called    (create file)                ║
+║      notes in Desktop                                            ║
+║    • Lock the screen / Shutdown     (system power)               ║
+║    • Brightness up / Set to 70%     (brightness control)         ║
+║    • Minimize all / Snap left       (window management)          ║
+║    • Open youtube.com               (open URL)                   ║
 ║  Type 'quit' or 'exit' to stop.                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
 """
 
 
-def main():
+def _run_text_mode():
+    """Interactive text-input loop (default mode)."""
     print(BANNER)
 
     # Pre-load the NLU model so first command isn't slow
@@ -150,9 +190,43 @@ def main():
             print("Goodbye!")
             break
 
+        # Special meta-commands
+        if raw.lower() in {"rebuild index", "rebuild file index", "refresh index"}:
+            print(file_search.rebuild_index())
+            continue
+
         print(f"  [RAW]    \"{raw}\"")
         result = handle_command(raw)
         print(f"\n🤖 Assistant > {result}\n")
+
+
+def _run_serial_mode():
+    """ESP32 serial mode — listen on COM port for audio, transcribe with Whisper."""
+    print("[SERIAL] Starting serial listener …")
+
+    try:
+        from serial_listener import start_serial_listener
+        start_serial_listener(handle_command)
+    except ImportError:
+        print("[ERR] serial_listener module not found. Make sure serial_listener.py exists.")
+        sys.exit(1)
+    except Exception as e:
+        print(f"[ERR] Serial listener failed: {e}")
+        sys.exit(1)
+
+
+def main():
+    parser = argparse.ArgumentParser(description="ESP32 Voice Command Assistant")
+    parser.add_argument(
+        "--serial", action="store_true",
+        help="Start in serial mode (listen on COM port for ESP32 audio)",
+    )
+    args = parser.parse_args()
+
+    if args.serial:
+        _run_serial_mode()
+    else:
+        _run_text_mode()
 
 
 if __name__ == "__main__":

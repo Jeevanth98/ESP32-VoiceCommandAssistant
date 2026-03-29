@@ -3,9 +3,14 @@ Command: Fuzzy File Search & Open
 ==================================
 Scans configured directories for filenames that fuzzy-match the user's
 query, ranks them, and opens the best match with the default application.
+
+Includes a persistent file-index cache (JSON) so that subsequent
+searches are instant.  The cache is rebuilt on first use or when the
+user says "rebuild index".
 """
 
 from __future__ import annotations
+import json
 import os
 from pathlib import Path
 
@@ -16,15 +21,42 @@ from config import (
     SEARCHABLE_EXTENSIONS,
     FUZZY_MATCH_THRESHOLD,
     FUZZY_MAX_RESULTS,
+    FILE_INDEX_CACHE_PATH,
 )
 
 
-def _build_file_index() -> dict[str, str]:
+# ─── Module-level cached index ──────────────────────────────────────────────
+_file_index: dict[str, str] | None = None
+
+
+def _build_file_index(force: bool = False) -> dict[str, str]:
     """
     Walk all SCAN_DIRECTORIES and return {display_name: full_path}.
-    display_name is the filename without extension (lower-cased) so that
-    fuzzy matching works on natural names like "physics pdf".
+    Uses a JSON cache file to avoid re-scanning on every call.
+
+    Parameters
+    ----------
+    force : bool
+        If True, re-scans the filesystem even if a cache exists.
     """
+    global _file_index
+
+    # Return in-memory cache if available (and not forced)
+    if _file_index is not None and not force:
+        return _file_index
+
+    # Try loading from disk cache
+    if not force and os.path.isfile(FILE_INDEX_CACHE_PATH):
+        try:
+            with open(FILE_INDEX_CACHE_PATH, "r", encoding="utf-8") as fh:
+                _file_index = json.load(fh)
+            print(f"  [FILE-SEARCH] Loaded {len(_file_index)} entries from cache")
+            return _file_index
+        except (json.JSONDecodeError, IOError):
+            pass  # Corrupted cache — rebuild
+
+    # Full scan
+    print("  [FILE-SEARCH] Building file index (this may take a moment) …")
     index: dict[str, str] = {}
     for root_dir in SCAN_DIRECTORIES:
         if not os.path.isdir(root_dir):
@@ -38,7 +70,24 @@ def _build_file_index() -> dict[str, str]:
                     # Key: "filename ext" so user can say "physics pdf"
                     display = f"{Path(fname).stem} {ext.lstrip('.')}".lower()
                     index[display] = full
-    return index
+
+    # Persist to disk
+    try:
+        os.makedirs(os.path.dirname(FILE_INDEX_CACHE_PATH), exist_ok=True)
+        with open(FILE_INDEX_CACHE_PATH, "w", encoding="utf-8") as fh:
+            json.dump(index, fh, ensure_ascii=False)
+        print(f"  [FILE-SEARCH] Cached {len(index)} entries → {FILE_INDEX_CACHE_PATH}")
+    except IOError as e:
+        print(f"  [WARN] Could not write cache: {e}")
+
+    _file_index = index
+    return _file_index
+
+
+def rebuild_index() -> str:
+    """Force-rebuild the file index from scratch."""
+    idx = _build_file_index(force=True)
+    return f"File index rebuilt: {len(idx)} files indexed."
 
 
 def execute(file_query: str) -> str:
@@ -49,7 +98,6 @@ def execute(file_query: str) -> str:
     if not file_query:
         return "I didn't catch the file name. Could you repeat?"
 
-    print(f"  [FILE-SEARCH] Building file index …")
     index = _build_file_index()
 
     if not index:

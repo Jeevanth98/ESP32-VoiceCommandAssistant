@@ -1,0 +1,2593 @@
+text,intent
+can you search how to solve quadratic equations,web_search
+stop OBS Studio,close_app
+how to how does GPS work,web_search
+go ahead and open Zoom,open_app
+search database in my homework,content_search
+brightness level,brightness
+open meeting notes,file_search
+search for thermodynamics in my notes,content_search
+countdown 1 hour,timer
+turn off my PC,system_power
+open Discord,open_app
+how to tensorflow,web_search
+can you close PowerPoint,close_app
+shut down File Explorer,close_app
+go to google.com please,open_url
+break down lecture slides for me,summarize
+search the web for meaning of entropy,web_search
+google kubernetes,web_search
+make a c file called hello in Desktop,create_file
+look up how does GPS work,web_search
+stop Slack,close_app
+look up algorithm in my lecture notes,content_search
+Launch Outlook,open_app
+close Task Manager,close_app
+end Outlook,close_app
+go to facebook.com,open_url
+can you search machine learning,web_search
+can you summarize homework answers,summarize
+restart,system_power
+shut Teams down,close_app
+can you close Slack,close_app
+end OBS Studio,close_app
+give me a summary of presentation slides,summarize
+find my report,file_search
+snap left,window_mgmt
+make it brighter,brightness
+I need exam timetable,file_search
+what is blockchain,web_search
+wake me up in 20 minutes,timer
+volume up,gui_control
+what is Python list comprehension tutorial,web_search
+open Excel,open_app
+open Spotify,open_app
+run Chrome,open_app
+Close Teams,close_app
+could you launch Terminal,open_app
+Launch Task Manager,open_app
+search fibonacci in my homework,content_search
+google how to make pancakes,web_search
+run Teams,open_app
+check CPU temperature,system_info
+search acceleration in my PDFs,content_search
+what is java,web_search
+TLDR of resume,summarize
+where is assignment 3,file_search
+please close Calculator,close_app
+I need Chrome open,open_app
+can you close WhatsApp,close_app
+shut down Brave,close_app
+please close File Explorer,close_app
+open Chrome,open_app
+end Firefox,close_app
+summarize budget spreadsheet,summarize
+boot up Spotify,open_app
+count down from 5 minutes,timer
+what is what is photosynthesis,web_search
+take a note: Meeting at 3 PM,active_typing
+google javascript,web_search
+fire up Excel,open_app
+where does fibonacci appear in my notes,content_search
+write this: Email professor about extension,active_typing
+can you find presentation slides,file_search
+search math cheat sheet,file_search
+timer for 1 hour,timer
+recap research paper for me,summarize
+bring up Word,open_app
+google algorithms,web_search
+I need Outlook open,open_app
+write this: Reminder: submit assignment,active_typing
+start a 1 minute timer,timer
+search the web for how to make pancakes,web_search
+search quantum physics,web_search
+tell me about best programming languages 2025,web_search
+search Python list comprehension tutorial,web_search
+start a 90 seconds timer,timer
+visit notion,open_url
+I need Zoom open,open_app
+Open Discord,open_app
+shut down Excel,close_app
+grep derivative in my files,content_search
+open Paint,open_app
+find exam timetable,file_search
+pull up research paper,file_search
+close OBS Studio,close_app
+look up machine learning,web_search
+kill Outlook,close_app
+Open Teams,open_app
+can you search python,web_search
+open up Word,open_app
+lock my PC,system_power
+could you launch Zoom,open_app
+wake me up in 10 minutes,timer
+can you close Firefox,close_app
+look up blockchain,web_search
+can you open VLC,open_app
+search who is Alan Turing,web_search
+TLDR of math cheat sheet,summarize
+fire up VLC,open_app
+go to stackoverflow.com,open_url
+launch Chrome,open_app
+how much RAM am I using,system_info
+start VLC,open_app
+take a screen shot,screenshot
+scan my documents for frequency,content_search
+I want to close Outlook,close_app
+search database,web_search
+type out: Dentist appointment tomorrow,active_typing
+I want to open Word,open_app
+remind me in 1 hour,timer
+start Steam,open_app
+open my final essay,file_search
+timer for 15 minutes,timer
+recap resume for me,summarize
+navigate to linkedin.com,open_url
+turn down brightness,brightness
+where does algorithm appear in my notes,content_search
+set a timer for 2 minutes,timer
+note this down: Lecture rescheduled to Thursday,active_typing
+resume,gui_control
+browse to wikipedia.org,open_url
+scan my documents for deadline,content_search
+shut Steam down,close_app
+Open Notepad for me,open_app
+scroll down please,gui_control
+write down: Project deadline is next Monday,active_typing
+create a python file called utils in Documents,create_file
+terminate Chrome,close_app
+set brightness to 30,brightness
+google java,web_search
+bring up Zoom,open_app
+get me presentation slides,file_search
+count down from 90 seconds,timer
+open youtube.com in browser,open_url
+open up Excel,open_app
+3 minutes timer,timer
+type: Meeting at 3 PM,active_typing
+I want to close Teams,close_app
+Open Edge for me,open_app
+note: Email professor about extension,active_typing
+google react,web_search
+launch Teams,open_app
+who is database,web_search
+how to who invented the transistor,web_search
+exit PowerPoint,close_app
+search lecture slides,file_search
+set timer 10 minutes,timer
+type this: Email professor about extension,active_typing
+search thermodynamics in my PDFs,content_search
+give me a summary of study guide,summarize
+snap window right,window_mgmt
+fire up PowerPoint,open_app
+I want to open Notepad,open_app
+what is what is quantum entanglement,web_search
+change brightness to 50,brightness
+find my lab manual,file_search
+start Chrome please,open_app
+open Slack,open_app
+launch Terminal,open_app
+google what is quantum entanglement,web_search
+cybersecurity,web_search
+quit VS Code,close_app
+take me to netflix.com,open_url
+mute the audio,gui_control
+condense lecture slides,summarize
+browse to stackoverflow.com,open_url
+play music,gui_control
+close Calculator for me,close_app
+give me a summary of project proposal,summarize
+get a screenshot,screenshot
+show me meeting notes,file_search
+brief me on physics notes,summarize
+shut Brave down,close_app
+how to blockchain,web_search
+run Edge,open_app
+timer for 5 minutes,timer
+run Terminal,open_app
+find out thermodynamics,web_search
+shorten presentation slides,summarize
+summarise resume,summarize
+what does study guide say,summarize
+google what is a black hole,web_search
+open wikipedia.org in browser,open_url
+I need WhatsApp open,open_app
+turn volume up,gui_control
+find mentions of resistance,content_search
+set an alarm for 5 minutes,timer
+end Zoom,close_app
+open budget spreadsheet,file_search
+search angular,web_search
+open github.com,open_url
+snap to the right,window_mgmt
+shut down Notepad,close_app
+quit VLC,close_app
+remind me in 20 minutes,timer
+Launch File Explorer,open_app
+please open Calculator,open_app
+open up OBS Studio,open_app
+recap meeting notes for me,summarize
+start Paint,open_app
+Close Brave,close_app
+boot up Teams,open_app
+type out: Buy groceries after class,active_typing
+grab a screenshot,screenshot
+search voltage in my PDFs,content_search
+navigate to google.com,open_url
+dimmer,brightness
+bring up Firefox,open_app
+cloud computing,web_search
+summarize project proposal,summarize
+kill Calculator,close_app
+open up Discord,open_app
+locate homework answers,file_search
+hit previous track,gui_control
+look for budget spreadsheet,file_search
+run Paint,open_app
+scan my documents for derivative,content_search
+exit Zoom,close_app
+pull up exam timetable,file_search
+show task view,window_mgmt
+shut WhatsApp down,close_app
+write this: Lecture rescheduled to Thursday,active_typing
+show the desktop,window_mgmt
+terminate Terminal,close_app
+shorten meeting notes,summarize
+shut Firefox down,close_app
+quit Notepad,close_app
+TLDR of physics notes,summarize
+search the web for blockchain,web_search
+I need a javascript file called handler in Documents,create_file
+find machine learning in my documents,content_search
+kill Firefox,close_app
+look up best programming languages 2025,web_search
+change brightness to 80,brightness
+Open Paint for me,open_app
+could you launch Task Manager,open_app
+find mentions of frequency,content_search
+set brightness to 70,brightness
+find mentions of integration,content_search
+search algorithm in my homework,content_search
+run File Explorer,open_app
+close Brave for me,close_app
+60% brightness,brightness
+countdown 1 minute,timer
+find out java,web_search
+shut Chrome down,close_app
+bring up WhatsApp,open_app
+put my PC to sleep,system_power
+TLDR of project proposal,summarize
+get me research paper,file_search
+set screen brightness to 50,brightness
+note: Dentist appointment tomorrow,active_typing
+quit Excel,close_app
+shut Spotify down,close_app
+countdown 30 seconds,timer
+launch Word,open_app
+scan my documents for velocity,content_search
+quit Spotify,close_app
+set brightness to 10,brightness
+google machine learning,web_search
+can you close Edge,close_app
+search quantum in my PDFs,content_search
+how to cybersecurity,web_search
+break down study guide for me,summarize
+I need Edge open,open_app
+can you close Spotify,close_app
+start Terminal please,open_app
+can you search data structures,web_search
+vue,web_search
+set brightness to 100,brightness
+launch Brave,open_app
+scan my documents for gravity,content_search
+search for assignment 3,file_search
+increase the volume,gui_control
+look up javascript,web_search
+who is angular,web_search
+terminate Word,close_app
+launch OBS Studio,open_app
+help me find math cheat sheet,file_search
+set brightness to 50,brightness
+search for physics notes,file_search
+print screen,screenshot
+google meaning of entropy,web_search
+go to amazon.com,open_url
+google how does Wi-Fi work,web_search
+look for final essay,file_search
+open instagram,open_url
+exit OBS Studio,close_app
+can you summarize budget spreadsheet,summarize
+can you search Python list comprehension tutorial,web_search
+can you find thesis draft,file_search
+terminate Notepad,close_app
+find out what is a black hole,web_search
+brightness 30%,brightness
+please open VLC,open_app
+50% brightness,brightness
+could you launch Calculator,open_app
+please close Discord,close_app
+load linkedin.com,open_url
+count down from 1 hour,timer
+shut VS Code down,close_app
+I need resume,file_search
+timer for half an hour,timer
+Launch Terminal,open_app
+find physics notes,file_search
+end Brave,close_app
+find out github,web_search
+TLDR of exam timetable,summarize
+I need Paint open,open_app
+create a csv file called data in the Desktop,create_file
+thermodynamics,web_search
+summarise meeting notes,summarize
+go to wikipedia.org please,open_url
+press volume down,gui_control
+jot down: Email professor about extension,active_typing
+visit reddit.com,open_url
+open VS Code,open_app
+Open Terminal for me,open_app
+latest Nobel Prize winners,web_search
+set an alarm for 1 hour,timer
+tell me about how does GPS work,web_search
+brightness 100%,brightness
+search for presentation slides,file_search
+I want to close Paint,close_app
+set timer 20 minutes,timer
+search study guide,file_search
+snap right,window_mgmt
+start Slack,open_app
+show me physics notes,file_search
+find mentions of velocity,content_search
+open research paper,file_search
+log out,system_power
+Open Brave,open_app
+open Teams,open_app
+set screen brightness to 100,brightness
+look up machine learning in my lecture notes,content_search
+Close Notepad,close_app
+jot down: Pick up laundry at 6,active_typing
+look for quantum inside my files,content_search
+tell me about Python list comprehension tutorial,web_search
+could you launch VS Code,open_app
+Launch Edge,open_app
+find out vue,web_search
+I need Calculator open,open_app
+search for voltage in my notes,content_search
+terminate Zoom,close_app
+navigate to github.com,open_url
+search the web for calculus,web_search
+look up define machine learning,web_search
+shut VLC down,close_app
+search how to solve quadratic equations,web_search
+how to github,web_search
+Open Terminal,open_app
+launch Edge,open_app
+please open Notepad,open_app
+please create a html file called site in Downloads,create_file
+RAM usage,system_info
+find Newton in my documents,content_search
+go to github.com please,open_url
+start a 1 hour timer,timer
+new {0} file called {1} in {2},create_file
+end Excel,close_app
+start Zoom please,open_app
+jot down: Reminder: submit assignment,active_typing
+minimize this window,window_mgmt
+close Calculator,close_app
+1 minute timer,timer
+tell me about docker,web_search
+grep fibonacci in my files,content_search
+kill VLC,close_app
+close Spotify for me,close_app
+can you open Slack,open_app
+tell me about calculus,web_search
+can you find lecture slides,file_search
+who is vue,web_search
+start VS Code,open_app
+give me a summary of physics notes,summarize
+go ahead and open Outlook,open_app
+search the web for best programming languages 2025,web_search
+jot down: Lecture rescheduled to Thursday,active_typing
+press volume up,gui_control
+make a python file in the Desktop called script,create_file
+could you launch WhatsApp,open_app
+Close VS Code,close_app
+scan my documents for fibonacci,content_search
+can you open WhatsApp,open_app
+brightness 50%,brightness
+minimize all windows,window_mgmt
+can you search pytorch,web_search
+find my homework answers,file_search
+search for quantum in my notes,content_search
+remind me in 45 seconds,timer
+please open Outlook,open_app
+skip to next track,gui_control
+I want to close Chrome,close_app
+what is pytorch,web_search
+show me research paper,file_search
+get me assignment 3,file_search
+close Outlook for me,close_app
+run Telegram,open_app
+start a 30 seconds timer,timer
+what is data structures,web_search
+python,web_search
+open up PowerPoint,open_app
+please open Slack,open_app
+summarise physics notes,summarize
+stackoverflow,web_search
+can you search calculus,web_search
+open Outlook,open_app
+countdown 5 minutes,timer
+stop the music,gui_control
+open Brave,open_app
+close File Explorer for me,close_app
+get me resume,file_search
+I want to open Discord,open_app
+who is what is quantum entanglement,web_search
+I want to open Steam,open_app
+tensorflow,web_search
+70% brightness,brightness
+exit Discord,close_app
+who is define machine learning,web_search
+where does resistance appear in my notes,content_search
+countdown 3 minutes,timer
+computer stats,system_info
+can you summarize final essay,summarize
+go to youtube.com,open_url
+minimise this window,window_mgmt
+I want to open Calculator,open_app
+set a timer for half an hour,timer
+tell me about neural networks,web_search
+Close Excel,close_app
+make a python file called test in Documents,create_file
+open instagram.com,open_url
+open up Chrome,open_app
+5 minutes timer,timer
+decrease brightness,brightness
+visit linkedin,open_url
+please close Terminal,close_app
+tell me about machine learning,web_search
+search the web for react,web_search
+pull up project proposal,file_search
+start File Explorer,open_app
+could you launch Telegram,open_app
+search blockchain,web_search
+what is meaning of entropy,web_search
+break down project proposal for me,summarize
+screenshot this,screenshot
+what is how does GPS work,web_search
+Open File Explorer for me,open_app
+who is github,web_search
+who is what is photosynthesis,web_search
+can you close Outlook,close_app
+look up database in my lecture notes,content_search
+grep velocity in my files,content_search
+look for deadline inside my files,content_search
+google pytorch,web_search
+locate study guide,file_search
+search kubernetes,web_search
+open youtube.com,open_url
+can you search javascript,web_search
+best programming languages 2025,web_search
+search the web for database,web_search
+save a screenshot,screenshot
+open my my report,file_search
+launch File Explorer,open_app
+search the web for neural networks,web_search
+show me assignment 3,file_search
+tell me about quantum physics,web_search
+break down thesis draft for me,summarize
+boot up Firefox,open_app
+can you close Calculator,close_app
+take a note: Call mom at 5,active_typing
+show disk space,system_info
+help me find lab manual,file_search
+pull up lecture slides,file_search
+start Steam please,open_app
+hit mute,gui_control
+run Discord,open_app
+brief me on budget spreadsheet,summarize
+visit instagram.com,open_url
+search gravity in my homework,content_search
+search the web for Python list comprehension tutorial,web_search
+head to reddit.com,open_url
+how to data structures,web_search
+who is best programming languages 2025,web_search
+start countdown 10 minutes,timer
+search machine learning in my PDFs,content_search
+close desktop,window_mgmt
+scroll up,gui_control
+start a 5 minutes timer,timer
+search project proposal,file_search
+start Excel please,open_app
+browse to facebook.com,open_url
+find out meaning of entropy,web_search
+fire up Telegram,open_app
+type out: Project deadline is next Monday,active_typing
+minimize all,window_mgmt
+search lab manual,file_search
+open google.com,open_url
+Open WhatsApp for me,open_app
+I need VS Code open,open_app
+start Brave,open_app
+can you close Telegram,close_app
+jot down: Meeting at 3 PM,active_typing
+close Steam for me,close_app
+set timer 30 seconds,timer
+search for momentum in my notes,content_search
+fire up Spotify,open_app
+make a {0} file named {1} in {2},create_file
+I want to open Excel,open_app
+can you create a text file called memo in Documents,create_file
+tell me about kubernetes,web_search
+tell me about blockchain,web_search
+open up WhatsApp,open_app
+take me to reddit.com,open_url
+close Firefox,close_app
+visit netflix.com,open_url
+scan my documents for quantum,content_search
+search final essay,file_search
+shut Notepad down,close_app
+please open Chrome,open_app
+wake me up in 1 hour,timer
+find out python,web_search
+shut down Calculator,close_app
+where does integration appear in my notes,content_search
+terminate PowerPoint,close_app
+can you search java,web_search
+look up database,web_search
+start OBS Studio,open_app
+load reddit.com,open_url
+exit Firefox,close_app
+please close Slack,close_app
+summarise study guide,summarize
+load twitter.com,open_url
+summarize lab manual,summarize
+count down from 1 minute,timer
+start Slack please,open_app
+who is who invented the transistor,web_search
+shut down OBS Studio,close_app
+kill Slack,close_app
+search what is photosynthesis,web_search
+what does homework answers say,summarize
+google how to solve quadratic equations,web_search
+find out tensorflow,web_search
+look for voltage inside my files,content_search
+how does Wi-Fi work,web_search
+look up velocity in my lecture notes,content_search
+how much disk space is left,system_info
+Open PowerPoint,open_app
+write this: Buy groceries after class,active_typing
+go to wikipedia.org,open_url
+go ahead and open Chrome,open_app
+start countdown 2 minutes,timer
+shorten final essay,summarize
+give me a summary of meeting notes,summarize
+can you search what is photosynthesis,web_search
+show me lecture slides,file_search
+find out kubernetes,web_search
+search best programming languages 2025,web_search
+create notes.py in Desktop,create_file
+hit fullscreen,gui_control
+look for meeting notes,file_search
+I need File Explorer open,open_app
+what is define machine learning,web_search
+find my final essay,file_search
+I need lab manual,file_search
+bring up OBS Studio,open_app
+remind me in 5 minutes,timer
+what is my brightness,brightness
+close Excel,close_app
+change brightness to 70,brightness
+I want to close Excel,close_app
+can you open OBS Studio,open_app
+note this down: Email professor about extension,active_typing
+open wikipedia.org,open_url
+10% brightness,brightness
+google blockchain,web_search
+set a timer for 5 minutes,timer
+what does lab manual say,summarize
+close Chrome for me,close_app
+restart the computer,system_power
+stop Spotify,close_app
+can you search who is Alan Turing,web_search
+load wikipedia.org,open_url
+browse to reddit.com,open_url
+get brightness,brightness
+search the web for java,web_search
+go to reddit.com,open_url
+Open Outlook for me,open_app
+exit Word,close_app
+where is study guide,file_search
+quit Discord,close_app
+who is tensorflow,web_search
+force close VLC,close_app
+navigate to reddit.com,open_url
+end WhatsApp,close_app
+go to amazon.com please,open_url
+create a markdown file in my Documents called notes,create_file
+how to neural networks,web_search
+who is quantum physics,web_search
+can you search stackoverflow,web_search
+end VLC,close_app
+shut down my computer,system_power
+can you summarize research paper,summarize
+stop Terminal,close_app
+open netflix.com in browser,open_url
+fire up OBS Studio,open_app
+force close Outlook,close_app
+search tensorflow,web_search
+Close Discord,close_app
+kill Word,close_app
+TLDR of thesis draft,summarize
+go to stackoverflow.com please,open_url
+search for lab manual,file_search
+can you find resume,file_search
+search the web for algorithms,web_search
+summarize meeting notes,summarize
+go to instagram.com,open_url
+run Word,open_app
+new csv file in Desktop called records,create_file
+Open Zoom,open_app
+find out define machine learning,web_search
+please close Zoom,close_app
+please open Telegram,open_app
+note: Pick up laundry at 6,active_typing
+look up java,web_search
+search velocity in my PDFs,content_search
+fire up VS Code,open_app
+who is machine learning,web_search
+help me find thesis draft,file_search
+find my study guide,file_search
+Open OBS Studio,open_app
+please open Teams,open_app
+recap thesis draft for me,summarize
+terminate OBS Studio,close_app
+minimise all,window_mgmt
+I need thesis draft,file_search
+search for resume,file_search
+could you launch Spotify,open_app
+search for gravity in my notes,content_search
+could you launch File Explorer,open_app
+set timer 2 minutes,timer
+scan my documents for machine learning,content_search
+end VS Code,close_app
+look for homework answers,file_search
+start countdown 20 minutes,timer
+I want to close Telegram,close_app
+Close Word,close_app
+go ahead and open Terminal,open_app
+can you search thermodynamics,web_search
+30% brightness,brightness
+find research paper,file_search
+how to linux,web_search
+make a text file named readme in Downloads,create_file
+exit Telegram,close_app
+what does final essay say,summarize
+find acceleration in my documents,content_search
+look for presentation slides,file_search
+Launch Zoom,open_app
+fire up Task Manager,open_app
+bring up Notepad,open_app
+screenshot the screen,screenshot
+boot up Brave,open_app
+could you launch Teams,open_app
+can you search cloud computing,web_search
+type out: Reminder: submit assignment,active_typing
+bring up Calculator,open_app
+can you search best programming languages 2025,web_search
+take a note: Pick up laundry at 6,active_typing
+machine learning,web_search
+what is react,web_search
+exit WhatsApp,close_app
+open reddit.com,open_url
+search docker,web_search
+exit Outlook,close_app
+I want to close Terminal,close_app
+take me to facebook.com,open_url
+break down exam timetable for me,summarize
+launch Calculator,open_app
+what is how does Wi-Fi work,web_search
+set brightness to 80,brightness
+force close VS Code,close_app
+bring up VS Code,open_app
+close Terminal for me,close_app
+Open Outlook,open_app
+write down: Reminder: submit assignment,active_typing
+go back a track,gui_control
+condense homework answers,summarize
+search how does Wi-Fi work,web_search
+note: Buy groceries after class,active_typing
+where is project proposal,file_search
+close Zoom for me,close_app
+give me a summary of assignment 3,summarize
+how to react,web_search
+open assignment 3,file_search
+run OBS Studio,open_app
+pull up homework answers,file_search
+take me to stackoverflow.com,open_url
+scroll down,gui_control
+set timer 1 hour,timer
+stop Firefox,close_app
+write this down: Reminder: submit assignment,active_typing
+I need final essay,file_search
+find algorithm in my documents,content_search
+write this down: Buy groceries after class,active_typing
+look up acceleration in my lecture notes,content_search
+go to instagram.com please,open_url
+log off,system_power
+make a css file named styles in Desktop,create_file
+jot down: Project deadline is next Monday,active_typing
+set a timer for 20 minutes,timer
+search machine learning,web_search
+create a sql file called schema in Desktop,create_file
+go to netflix.com please,open_url
+what does exam timetable say,summarize
+browse to netflix.com,open_url
+open wikipedia,open_url
+search for integration in my notes,content_search
+maximise the window,window_mgmt
+google data structures,web_search
+write: Email professor about extension,active_typing
+note this down: Dentist appointment tomorrow,active_typing
+search thermodynamics,web_search
+launch VS Code,open_app
+write down: Lecture rescheduled to Thursday,active_typing
+Open WhatsApp,open_app
+scan my documents for voltage,content_search
+summarize homework answers,summarize
+note: Meeting at 3 PM,active_typing
+help me find assignment 3,file_search
+set screen brightness to 10,brightness
+snap a screenshot,screenshot
+snap window left,window_mgmt
+where is research paper,file_search
+google database,web_search
+find out cloud computing,web_search
+Launch Slack,open_app
+move window to the right,window_mgmt
+please open WhatsApp,open_app
+exit Spotify,close_app
+end Spotify,close_app
+what does lecture slides say,summarize
+where is resume,file_search
+go ahead and open Firefox,open_app
+can you search what is blockchain,web_search
+force close Word,close_app
+tell me my IP address,system_info
+Open Word for me,open_app
+CPU usage,system_info
+look up fibonacci in my lecture notes,content_search
+change brightness to 60,brightness
+what is what is a black hole,web_search
+bring up Spotify,open_app
+exit File Explorer,close_app
+calculus,web_search
+load amazon.com,open_url
+can you summarize assignment 3,summarize
+find my thesis draft,file_search
+help me find my report,file_search
+terminate Discord,close_app
+help me find study guide,file_search
+go ahead and open Notepad,open_app
+break down resume for me,summarize
+type: Call mom at 5,active_typing
+what is kubernetes,web_search
+javascript,web_search
+search the web for what is blockchain,web_search
+enter sleep mode,system_power
+I need project proposal,file_search
+search fibonacci in my PDFs,content_search
+search for database in my notes,content_search
+tell me about meaning of entropy,web_search
+who is what is blockchain,web_search
+close VS Code,close_app
+boot up VLC,open_app
+end Teams,close_app
+please close Paint,close_app
+could you launch Outlook,open_app
+grep momentum in my files,content_search
+TLDR of my report,summarize
+search the web for pytorch,web_search
+end Telegram,close_app
+can you open Steam,open_app
+can you summarize lecture slides,summarize
+help me find physics notes,file_search
+can you close Discord,close_app
+break down my report for me,summarize
+who is how to solve quadratic equations,web_search
+can you open Excel,open_app
+tell me about tensorflow,web_search
+what is CPU utilization,system_info
+how to javascript,web_search
+set timer 45 seconds,timer
+find out linux,web_search
+open up Steam,open_app
+type this: Project deadline is next Monday,active_typing
+navigate to youtube.com,open_url
+brightness 70%,brightness
+find out react,web_search
+kill WhatsApp,close_app
+I want to close Calculator,close_app
+condense assignment 3,summarize
+grep integration in my files,content_search
+take a note: Buy groceries after class,active_typing
+grep Newton in my files,content_search
+task view,window_mgmt
+fullscreen,gui_control
+type out: Call mom at 5,active_typing
+boot up Word,open_app
+fire up Brave,open_app
+snap the screen,screenshot
+search neural networks,web_search
+open up Terminal,open_app
+run Steam,open_app
+what does physics notes say,summarize
+where does voltage appear in my notes,content_search
+how hot is my CPU,system_info
+open VLC,open_app
+could you launch OBS Studio,open_app
+open amazon.com,open_url
+remind me in half an hour,timer
+find thesis draft,file_search
+look up calculus,web_search
+Launch OBS Studio,open_app
+exit Calculator,close_app
+can you close Notepad,close_app
+where is final essay,file_search
+can you close Steam,close_app
+please close Teams,close_app
+show hardware info,system_info
+can you search github,web_search
+can you summarize meeting notes,summarize
+write: Reminder: submit assignment,active_typing
+go to youtube.com please,open_url
+go ahead and open Slack,open_app
+scroll up,gui_control
+search for thesis draft,file_search
+tell me about how does Wi-Fi work,web_search
+search exam timetable,file_search
+shut down Discord,close_app
+please open Excel,open_app
+brightness 60%,brightness
+please close Spotify,close_app
+can you close File Explorer,close_app
+how to history of the internet,web_search
+find my budget spreadsheet,file_search
+condense meeting notes,summarize
+please open Steam,open_app
+look up who invented the transistor,web_search
+tell me about react,web_search
+Launch PowerPoint,open_app
+give me a summary of my report,summarize
+search history of the internet,web_search
+show me budget spreadsheet,file_search
+new javascript file called script in the Desktop,create_file
+open my budget spreadsheet,file_search
+where does deadline appear in my notes,content_search
+45 seconds timer,timer
+go ahead and open OBS Studio,open_app
+grep thermodynamics in my files,content_search
+find out how does Wi-Fi work,web_search
+page down,gui_control
+open up Zoom,open_app
+alt tab,window_mgmt
+open up Paint,open_app
+search the web for latest Nobel Prize winners,web_search
+can you find project proposal,file_search
+summarise budget spreadsheet,summarize
+find database in my documents,content_search
+tell me about what is quantum entanglement,web_search
+find momentum in my documents,content_search
+open up Brave,open_app
+I want to close VLC,close_app
+show me presentation slides,file_search
+head to linkedin.com,open_url
+start Calculator please,open_app
+go ahead and open Word,open_app
+can you search cybersecurity,web_search
+shutdown my PC,system_power
+shut down Terminal,close_app
+decrease the volume,gui_control
+new virtual desktop,window_mgmt
+visit github.com,open_url
+brief me on project proposal,summarize
+look for machine learning inside my files,content_search
+brief me on lecture slides,summarize
+Open File Explorer,open_app
+fire up Notepad,open_app
+exit fullscreen,gui_control
+search the web for history of the internet,web_search
+search thesis draft,file_search
+show desktop,window_mgmt
+shorten budget spreadsheet,summarize
+search for exam timetable,file_search
+find project proposal,file_search
+look for resistance inside my files,content_search
+close Teams,close_app
+find out pytorch,web_search
+can you find meeting notes,file_search
+what is cybersecurity,web_search
+type out: Finish chapter 7 tonight,active_typing
+how to algorithms,web_search
+search the web for vit,web_search
+visit google.com,open_url
+force close Paint,close_app
+navigate to wikipedia.org,open_url
+search my report,file_search
+look up latest Nobel Prize winners,web_search
+navigate to stackoverflow,open_url
+what is my CPU usage,system_info
+close Word for me,close_app
+brief me on study guide,summarize
+set a timer for 45 seconds,timer
+terminate Steam,close_app
+go to twitter.com,open_url
+go ahead and open VLC,open_app
+open my presentation slides,file_search
+who is javascript,web_search
+what is blockchain,web_search
+count down from 20 minutes,timer
+jot down: Buy groceries after class,active_typing
+half an hour timer,timer
+google latest Nobel Prize winners,web_search
+how to quantum physics,web_search
+find out quantum physics,web_search
+find mentions of Newton,content_search
+how to who is Alan Turing,web_search
+timer for 1 minute,timer
+look for momentum inside my files,content_search
+can you summarize my report,summarize
+vit,web_search
+open stackoverflow.com,open_url
+set a timer for 15 minutes,timer
+quit Steam,close_app
+find out algorithms,web_search
+launch Excel,open_app
+wake me up in 2 minutes,timer
+show me resume,file_search
+look up frequency in my lecture notes,content_search
+sign out,system_power
+create readme.txt in Documents,create_file
+close WhatsApp,close_app
+who is react,web_search
+launch Steam,open_app
+close Chrome,close_app
+can you summarize lab manual,summarize
+what does research paper say,summarize
+stop Paint,close_app
+20% brightness,brightness
+start countdown 15 minutes,timer
+google angular,web_search
+force close Chrome,close_app
+force close PowerPoint,close_app
+terminate Spotify,close_app
+set timer 1 minute,timer
+search the web for who invented the transistor,web_search
+type this: Meeting at 3 PM,active_typing
+look for frequency inside my files,content_search
+terminate VLC,close_app
+please capture my screen,screenshot
+terminate WhatsApp,close_app
+take a note: Reminder: submit assignment,active_typing
+condense budget spreadsheet,summarize
+quit Firefox,close_app
+stop VLC,close_app
+page up,gui_control
+more brightness,brightness
+take a note: Project deadline is next Monday,active_typing
+Launch WhatsApp,open_app
+show me math cheat sheet,file_search
+standby,system_power
+show me my report,file_search
+write this: Pick up laundry at 6,active_typing
+shut down Task Manager,close_app
+find out best programming languages 2025,web_search
+note: Project deadline is next Monday,active_typing
+current brightness level,brightness
+please open Terminal,open_app
+can you scroll down,gui_control
+lower brightness,brightness
+show brightness,brightness
+find final essay,file_search
+what is javascript,web_search
+find budget spreadsheet,file_search
+pull up lab manual,file_search
+end Steam,close_app
+help me find meeting notes,file_search
+search velocity in my homework,content_search
+I want to close Steam,close_app
+find my physics notes,file_search
+shorten exam timetable,summarize
+how to how to solve quadratic equations,web_search
+search quantum in my homework,content_search
+start Task Manager,open_app
+break down budget spreadsheet for me,summarize
+search integration in my PDFs,content_search
+Launch Spotify,open_app
+can you open Edge,open_app
+I want to close Edge,close_app
+open up Task Manager,open_app
+boot up Notepad,open_app
+write: Dentist appointment tomorrow,active_typing
+can you search database,web_search
+reboot,system_power
+open stackoverflow.com in browser,open_url
+hit volume up,gui_control
+search what is a black hole,web_search
+search the web for tensorflow,web_search
+I need Slack open,open_app
+sign off,system_power
+timer for 30 seconds,timer
+put the computer to sleep,system_power
+visit google,open_url
+browse to google.com,open_url
+locate my report,file_search
+search the web for what is a black hole,web_search
+type this: Call mom at 5,active_typing
+reduce brightness,brightness
+could you launch Notepad,open_app
+find out Python list comprehension tutorial,web_search
+count down from 45 seconds,timer
+find lecture slides,file_search
+look for Newton inside my files,content_search
+show me final essay,file_search
+search for budget spreadsheet,file_search
+can you search define machine learning,web_search
+look for lab manual,file_search
+stop Task Manager,close_app
+can you open Discord,open_app
+what does budget spreadsheet say,summarize
+I want to create a python file called bot in Desktop,create_file
+locate physics notes,file_search
+check brightness,brightness
+can you summarize physics notes,summarize
+open chatgpt,open_url
+hit pause,gui_control
+what is linux,web_search
+brightness down,brightness
+search vue,web_search
+Open Calculator for me,open_app
+shorten my report,summarize
+write down: Meeting at 3 PM,active_typing
+100% brightness,brightness
+look up cloud computing,web_search
+boot up OBS Studio,open_app
+tell me about javascript,web_search
+terminate Paint,close_app
+quit Outlook,close_app
+create a python file called helper,create_file
+who is Python list comprehension tutorial,web_search
+scan my documents for Newton,content_search
+head to netflix.com,open_url
+open File Explorer,open_app
+start Zoom,open_app
+shut Discord down,close_app
+close Notepad,close_app
+how to kubernetes,web_search
+stop Word,close_app
+get me my report,file_search
+terminate Firefox,close_app
+boot up WhatsApp,open_app
+find mentions of gravity,content_search
+google what is photosynthesis,web_search
+15 minutes timer,timer
+show me lab manual,file_search
+bring up Task Manager,open_app
+find velocity in my documents,content_search
+search for research paper,file_search
+look up angular,web_search
+navigate to facebook.com,open_url
+head to facebook.com,open_url
+locate presentation slides,file_search
+what is docker,web_search
+set an alarm for 3 minutes,timer
+press fullscreen,gui_control
+give me system stats,system_info
+I want to open VLC,open_app
+search deadline in my homework,content_search
+can you open Outlook,open_app
+search the web for stackoverflow,web_search
+countdown 15 minutes,timer
+close Excel for me,close_app
+minimise all windows,window_mgmt
+count down from 2 minutes,timer
+find out what is photosynthesis,web_search
+open physics notes,file_search
+close OBS Studio for me,close_app
+find mentions of momentum,content_search
+find mentions of statistics,content_search
+look up quantum in my lecture notes,content_search
+launch Zoom,open_app
+visit facebook.com,open_url
+new styles.css in my Documents,create_file
+previous track,gui_control
+condense my report,summarize
+search the web for data structures,web_search
+open Zoom,open_app
+can you close VLC,close_app
+write: Finish chapter 7 tonight,active_typing
+shorten resume,summarize
+google cloud computing,web_search
+could you launch Steam,open_app
+recap final essay for me,summarize
+google stackoverflow,web_search
+launch Spotify,open_app
+set an alarm for 90 seconds,timer
+close Telegram,close_app
+kill OBS Studio,close_app
+start a 3 minutes timer,timer
+look up momentum in my lecture notes,content_search
+can you close Paint,close_app
+where does acceleration appear in my notes,content_search
+set an alarm for 10 minutes,timer
+pull up final essay,file_search
+countdown 10 minutes,timer
+tile window right,window_mgmt
+google quantum physics,web_search
+run Zoom,open_app
+kubernetes,web_search
+stop Calculator,close_app
+take screen capture,screenshot
+look up react,web_search
+open homework answers,file_search
+can you close Terminal,close_app
+visit amazon.com,open_url
+type out: Meeting at 3 PM,active_typing
+reboot my computer,system_power
+tell me about how to solve quadratic equations,web_search
+can you search algorithms,web_search
+close Telegram for me,close_app
+fire up Edge,open_app
+what is stackoverflow,web_search
+look up history of the internet,web_search
+who is pytorch,web_search
+search the web for vue,web_search
+please open Zoom,open_app
+I need meeting notes,file_search
+timer for 90 seconds,timer
+close Task Manager for me,close_app
+what does thesis draft say,summarize
+search statistics in my PDFs,content_search
+open exam timetable,file_search
+stop File Explorer,close_app
+fire up Steam,open_app
+search for final essay,file_search
+shut Task Manager down,close_app
+find my my report,file_search
+please close Steam,close_app
+count down from 30 seconds,timer
+close Paint,close_app
+where is presentation slides,file_search
+look for lecture slides,file_search
+bring up File Explorer,open_app
+look for fibonacci inside my files,content_search
+set timer 3 minutes,timer
+look up thermodynamics in my lecture notes,content_search
+head to instagram.com,open_url
+search research paper,file_search
+brief me on assignment 3,summarize
+type: Finish chapter 7 tonight,active_typing
+create a html file called page,create_file
+summarise lecture slides,summarize
+can you search blockchain,web_search
+look for derivative inside my files,content_search
+kill Telegram,close_app
+head to twitter.com,open_url
+please open Discord,open_app
+I want to open Spotify,open_app
+google who invented the transistor,web_search
+can you open File Explorer,open_app
+can you open Chrome,open_app
+look up integration in my lecture notes,content_search
+get me final essay,file_search
+summarise assignment 3,summarize
+make a text file in Documents named log,create_file
+shut Edge down,close_app
+how to what is blockchain,web_search
+new html file called index in Documents,create_file
+countdown 2 minutes,timer
+browse to amazon.com,open_url
+screenshot,screenshot
+help me find lecture slides,file_search
+Launch Telegram,open_app
+browse to youtube.com,open_url
+search assignment 3,file_search
+where is exam timetable,file_search
+run Outlook,open_app
+show me project proposal,file_search
+check battery percentage,system_info
+where is math cheat sheet,file_search
+can you search how does Wi-Fi work,web_search
+open netflix,open_url
+find out history of the internet,web_search
+search python,web_search
+create a json file called config in Desktop,create_file
+change brightness to 10,brightness
+start Excel,open_app
+exit VLC,close_app
+go to gmail,open_url
+go to github.com,open_url
+force close Telegram,close_app
+who is java,web_search
+Close Zoom,close_app
+end PowerPoint,close_app
+Open Firefox,open_app
+search the web for cybersecurity,web_search
+what is what is blockchain,web_search
+boot up Chrome,open_app
+could you launch Excel,open_app
+search the web for define machine learning,web_search
+condense research paper,summarize
+Open Task Manager for me,open_app
+google vue,web_search
+kill Paint,close_app
+google github,web_search
+restart my computer,system_power
+I want to open WhatsApp,open_app
+tell me about database,web_search
+Close WhatsApp,close_app
+press pause,gui_control
+take me to linkedin.com,open_url
+create a text file called notes in Downloads,create_file
+write this down: Call mom at 5,active_typing
+break down homework answers for me,summarize
+I need OBS Studio open,open_app
+find mentions of deadline,content_search
+Open Excel for me,open_app
+can you search who invented the transistor,web_search
+please close PowerPoint,close_app
+start Spotify,open_app
+Open VLC,open_app
+define machine learning,web_search
+can you search neural networks,web_search
+what is best programming languages 2025,web_search
+summarise math cheat sheet,summarize
+Open Chrome for me,open_app
+go ahead and open Telegram,open_app
+how to make pancakes,web_search
+write: Meeting at 3 PM,active_typing
+start Terminal,open_app
+recap lecture slides for me,summarize
+who is neural networks,web_search
+close WhatsApp for me,close_app
+who is history of the internet,web_search
+end Paint,close_app
+Close PowerPoint,close_app
+where is physics notes,file_search
+recap budget spreadsheet for me,summarize
+write this: Project deadline is next Monday,active_typing
+set screen brightness to 70,brightness
+launch Paint,open_app
+can you search angular,web_search
+look up how to make pancakes,web_search
+summarize physics notes,summarize
+google who is Alan Turing,web_search
+run WhatsApp,open_app
+google vit,web_search
+can you search what is a black hole,web_search
+google what is blockchain,web_search
+open instagram.com in browser,open_url
+find gravity in my documents,content_search
+close Discord for me,close_app
+tell me about vit,web_search
+I want to close OBS Studio,close_app
+start a 45 seconds timer,timer
+find voltage in my documents,content_search
+can you search kubernetes,web_search
+fire up Terminal,open_app
+take a note: Finish chapter 7 tonight,active_typing
+turn off the computer,system_power
+shut down Outlook,close_app
+Launch Notepad,open_app
+Launch Paint,open_app
+snap to the left,window_mgmt
+boot up Telegram,open_app
+search the web for docker,web_search
+start countdown 1 hour,timer
+can you find research paper,file_search
+please open VS Code,open_app
+can you search meaning of entropy,web_search
+log me off,system_power
+force close Brave,close_app
+search database in my PDFs,content_search
+summarize math cheat sheet,summarize
+launch Notepad,open_app
+I need lecture slides,file_search
+what is photosynthesis,web_search
+remind me in 30 seconds,timer
+close Slack for me,close_app
+quantum physics,web_search
+scan my documents for momentum,content_search
+lock the screen,system_power
+close VS Code for me,close_app
+mute,gui_control
+Open Spotify for me,open_app
+find quantum in my documents,content_search
+tell me about github,web_search
+how to machine learning,web_search
+shut PowerPoint down,close_app
+shorten project proposal,summarize
+can you summarize presentation slides,summarize
+note: Finish chapter 7 tonight,active_typing
+shut Telegram down,close_app
+navigate to stackoverflow.com,open_url
+start Telegram please,open_app
+can you open VS Code,open_app
+what is tensorflow,web_search
+tell me about how to make pancakes,web_search
+look up python,web_search
+find out angular,web_search
+go to desktop,window_mgmt
+exit Notepad,close_app
+open up Teams,open_app
+set timer 5 minutes,timer
+open my exam timetable,file_search
+condense study guide,summarize
+end Terminal,close_app
+set an alarm for 2 minutes,timer
+Open OBS Studio for me,open_app
+I need Teams open,open_app
+could you launch Discord,open_app
+google neural networks,web_search
+remind me in 3 minutes,timer
+TLDR of assignment 3,summarize
+fire up Discord,open_app
+Open Steam for me,open_app
+end Edge,close_app
+where does machine learning appear in my notes,content_search
+launch VLC,open_app
+how to best programming languages 2025,web_search
+stop Excel,close_app
+set timer half an hour,timer
+can you summarize thesis draft,summarize
+write down: Pick up laundry at 6,active_typing
+fire up Outlook,open_app
+lock this computer,system_power
+shut it down,system_power
+quit Telegram,close_app
+who is how does Wi-Fi work,web_search
+go ahead and open Calculator,open_app
+summarise final essay,summarize
+bring up Outlook,open_app
+can you close Brave,close_app
+set a timer for 1 hour,timer
+close Brave,close_app
+terminate Teams,close_app
+open my project proposal,file_search
+wake me up in 5 minutes,timer
+type: Dentist appointment tomorrow,active_typing
+browse to twitter.com,open_url
+open Task Manager,open_app
+kill Zoom,close_app
+shut Slack down,close_app
+brief me on lab manual,summarize
+Open Steam,open_app
+note this down: Project deadline is next Monday,active_typing
+shut down Firefox,close_app
+where does derivative appear in my notes,content_search
+end Slack,close_app
+search cloud computing,web_search
+I want to close Word,close_app
+Close Slack,close_app
+run VLC,open_app
+pull up resume,file_search
+take me to google.com,open_url
+I need Excel open,open_app
+shut down VLC,close_app
+search what is blockchain,web_search
+what is python,web_search
+open final essay,file_search
+summarise presentation slides,summarize
+shut down Zoom,close_app
+scan my documents for database,content_search
+can you close Excel,close_app
+locate resume,file_search
+how to define machine learning,web_search
+I want to open Outlook,open_app
+look for algorithm inside my files,content_search
+open google.com in browser,open_url
+head to youtube.com,open_url
+open Steam,open_app
+TLDR of lab manual,summarize
+page up,gui_control
+find out cybersecurity,web_search
+quit OBS Studio,close_app
+how to vit,web_search
+can you find physics notes,file_search
+Close Chrome,close_app
+start VLC please,open_app
+scan my documents for resistance,content_search
+open my homework answers,file_search
+Close VLC,close_app
+condense lab manual,summarize
+summarize final essay,summarize
+I want to close PowerPoint,close_app
+who is what is a black hole,web_search
+can you open Teams,open_app
+what is who invented the transistor,web_search
+open up Outlook,open_app
+could you launch VLC,open_app
+condense physics notes,summarize
+my computer info,system_info
+search the web for quantum physics,web_search
+algorithms,web_search
+quit Chrome,close_app
+type: Email professor about extension,active_typing
+look for research paper,file_search
+close Paint for me,close_app
+press mute,gui_control
+shut down Chrome,close_app
+start Calculator,open_app
+force close Calculator,close_app
+Launch Steam,open_app
+look up algorithms,web_search
+shut down Telegram,close_app
+recap math cheat sheet for me,summarize
+open up File Explorer,open_app
+locate exam timetable,file_search
+search github,web_search
+summarise lab manual,summarize
+run Notepad,open_app
+look for thesis draft,file_search
+fire up Slack,open_app
+how to cloud computing,web_search
+terminate Telegram,close_app
+computer health check,system_info
+browse to linkedin.com,open_url
+Close Firefox,close_app
+countdown half an hour,timer
+summarize lecture slides,summarize
+launch Outlook,open_app
+find thermodynamics in my documents,content_search
+note this down: Pick up laundry at 6,active_typing
+give me a summary of research paper,summarize
+stop Outlook,close_app
+take a note: Dentist appointment tomorrow,active_typing
+increase brightness,brightness
+what does assignment 3 say,summarize
+force close Edge,close_app
+wake me up in 15 minutes,timer
+shorten assignment 3,summarize
+move window to the left,window_mgmt
+recap project proposal for me,summarize
+maximize this window,window_mgmt
+please close VLC,close_app
+new javascript file called utils,create_file
+how to python,web_search
+tell me about cloud computing,web_search
+I want to open Task Manager,open_app
+shorten thesis draft,summarize
+find presentation slides,file_search
+start OBS Studio please,open_app
+Open Word,open_app
+java,web_search
+help me find presentation slides,file_search
+run VS Code,open_app
+locate math cheat sheet,file_search
+who invented the transistor,web_search
+please close VS Code,close_app
+search voltage in my homework,content_search
+make a new {0} file called {1},create_file
+how to calculus,web_search
+search the web for how does Wi-Fi work,web_search
+search the web for github,web_search
+I want to open Teams,open_app
+shorten homework answers,summarize
+brightness 80%,brightness
+I want to close File Explorer,close_app
+I want to close Firefox,close_app
+angular,web_search
+brightness 10%,brightness
+write this down: Dentist appointment tomorrow,active_typing
+Launch Calculator,open_app
+find study guide,file_search
+write down: Buy groceries after class,active_typing
+90% brightness,brightness
+where does Newton appear in my notes,content_search
+Close Calculator,close_app
+how to thermodynamics,web_search
+change brightness to 30,brightness
+force close Discord,close_app
+pause,gui_control
+close Edge for me,close_app
+write down: Email professor about extension,active_typing
+open amazon.com in browser,open_url
+please close Firefox,close_app
+can you close Word,close_app
+history of the internet,web_search
+find frequency in my documents,content_search
+open youtube in browser,open_url
+I want to open VS Code,open_app
+type: Project deadline is next Monday,active_typing
+brief me on research paper,summarize
+where does statistics appear in my notes,content_search
+lock screen,system_power
+shut down Teams,close_app
+switch to next window,window_mgmt
+set a timer for 10 minutes,timer
+brightness 40%,brightness
+exit Edge,close_app
+search meeting notes,file_search
+please close Brave,close_app
+search for homework answers,file_search
+write this down: Project deadline is next Monday,active_typing
+please open Paint,open_app
+start VS Code please,open_app
+search resume,file_search
+grep algorithm in my files,content_search
+go ahead and open File Explorer,open_app
+type out: Pick up laundry at 6,active_typing
+start Brave please,open_app
+look up how does Wi-Fi work,web_search
+find my math cheat sheet,file_search
+find out how to make pancakes,web_search
+I need research paper,file_search
+pull up meeting notes,file_search
+search for math cheat sheet,file_search
+kill Discord,close_app
+break down presentation slides for me,summarize
+search budget spreadsheet,file_search
+terminate Edge,close_app
+search stackoverflow,web_search
+go to linkedin.com,open_url
+I want to open File Explorer,open_app
+tell me about what is photosynthesis,web_search
+set brightness to 40,brightness
+start a 2 minutes timer,timer
+restart my PC,system_power
+tell me about latest Nobel Prize winners,web_search
+can you search how does GPS work,web_search
+find meeting notes,file_search
+look for database inside my files,content_search
+how to pytorch,web_search
+look for acceleration inside my files,content_search
+make a java file called server in Downloads,create_file
+I want to open Terminal,open_app
+search how does GPS work,web_search
+Close File Explorer,close_app
+look up deadline in my lecture notes,content_search
+give me a summary of budget spreadsheet,summarize
+wake me up in 3 minutes,timer
+set screen brightness to 40,brightness
+pull up presentation slides,file_search
+break down physics notes for me,summarize
+locate lecture slides,file_search
+terminate Calculator,close_app
+Open VLC for me,open_app
+write this down: Meeting at 3 PM,active_typing
+type this: Lecture rescheduled to Thursday,active_typing
+I need Task Manager open,open_app
+how to what is a black hole,web_search
+open twitter.com,open_url
+search the web for cloud computing,web_search
+tell me about python,web_search
+type this: Dentist appointment tomorrow,active_typing
+look up stackoverflow,web_search
+summarize exam timetable,summarize
+end File Explorer,close_app
+visit twitter.com,open_url
+go ahead and open Discord,open_app
+how to docker,web_search
+search for lecture slides,file_search
+can you find assignment 3,file_search
+find fibonacci in my documents,content_search
+brief me on my report,summarize
+close this window,window_mgmt
+show me homework answers,file_search
+find assignment 3,file_search
+switch window,window_mgmt
+force close Zoom,close_app
+set an alarm for half an hour,timer
+reboot the system,system_power
+pause playback,gui_control
+20 minutes timer,timer
+Launch Chrome,open_app
+head to google.com,open_url
+look up docker,web_search
+show system stats,system_info
+note: Call mom at 5,active_typing
+tell me about linux,web_search
+open my assignment 3,file_search
+recap homework answers for me,summarize
+search for my report,file_search
+please close Chrome,close_app
+open up VS Code,open_app
+run Calculator,open_app
+write: Lecture rescheduled to Thursday,active_typing
+force close Excel,close_app
+please close Excel,close_app
+tell me about algorithms,web_search
+type out: Email professor about extension,active_typing
+take a screenshot,screenshot
+fire up Teams,open_app
+how to meaning of entropy,web_search
+summarise research paper,summarize
+find out vit,web_search
+scan my documents for thermodynamics,content_search
+could you launch Brave,open_app
+remind me in 15 minutes,timer
+locate thesis draft,file_search
+countdown 20 minutes,timer
+show me study guide,file_search
+set an alarm for 20 minutes,timer
+could you launch PowerPoint,open_app
+look up github,web_search
+create a new python file called analyzer in Desktop,create_file
+countdown 45 seconds,timer
+where does thermodynamics appear in my notes,content_search
+kill Notepad,close_app
+TLDR of presentation slides,summarize
+press play,gui_control
+Open Paint,open_app
+open linkedin.com,open_url
+where does gravity appear in my notes,content_search
+what does my report say,summarize
+close VLC,close_app
+take me to youtube.com,open_url
+type: Lecture rescheduled to Thursday,active_typing
+quit Zoom,close_app
+grep acceleration in my files,content_search
+find out javascript,web_search
+google python,web_search
+look for math cheat sheet,file_search
+Launch Word,open_app
+grep quantum in my files,content_search
+can you open Calculator,open_app
+note this down: Buy groceries after class,active_typing
+get me study guide,file_search
+open github.com in browser,open_url
+open my thesis draft,file_search
+kill Excel,close_app
+shut Terminal down,close_app
+break down lab manual for me,summarize
+40% brightness,brightness
+condense presentation slides,summarize
+can you find exam timetable,file_search
+Open VS Code for me,open_app
+browse to instagram.com,open_url
+terminate Task Manager,close_app
+find mentions of fibonacci,content_search
+look up meaning of entropy,web_search
+search acceleration in my homework,content_search
+stop VS Code,close_app
+can you search latest Nobel Prize winners,web_search
+open up Calculator,open_app
+go to amazon,open_url
+please open Brave,open_app
+start Task Manager please,open_app
+exit Steam,close_app
+load stackoverflow.com,open_url
+check system status,system_info
+close Slack,close_app
+create a python file called main in my Documents,create_file
+boot up Slack,open_app
+navigate to instagram.com,open_url
+I need Firefox open,open_app
+what is algorithms,web_search
+show me system information,system_info
+how does GPS work,web_search
+give me a summary of lab manual,summarize
+navigate to netflix.com,open_url
+what is how to solve quadratic equations,web_search
+find out blockchain,web_search
+Close Spotify,close_app
+condense resume,summarize
+please open OBS Studio,open_app
+can you search docker,web_search
+docker,web_search
+how to solve quadratic equations,web_search
+search what is quantum entanglement,web_search
+terminate File Explorer,close_app
+close Terminal,close_app
+launch Task Manager,open_app
+terminate Brave,close_app
+write: Call mom at 5,active_typing
+search thermodynamics in my homework,content_search
+condense exam timetable,summarize
+who is stackoverflow,web_search
+please lock the screen,system_power
+open Firefox,open_app
+I want to open OBS Studio,open_app
+can you open Spotify,open_app
+look for integration inside my files,content_search
+could you launch Firefox,open_app
+power off,system_power
+I want to open Brave,open_app
+can you open Task Manager,open_app
+write down: Dentist appointment tomorrow,active_typing
+brightness up,brightness
+bring up Excel,open_app
+give me a summary of lecture slides,summarize
+bring up Chrome,open_app
+look up tensorflow,web_search
+run Spotify,open_app
+google linux,web_search
+look up resistance in my lecture notes,content_search
+start Outlook,open_app
+write: Buy groceries after class,active_typing
+find mentions of acceleration,content_search
+open reddit,open_url
+look for assignment 3,file_search
+scan my documents for statistics,content_search
+shut down PowerPoint,close_app
+locate budget spreadsheet,file_search
+where is thesis draft,file_search
+change brightness to 90,brightness
+help me find homework answers,file_search
+search the web for javascript,web_search
+close Zoom,close_app
+write down: Call mom at 5,active_typing
+what is latest Nobel Prize winners,web_search
+can you search react,web_search
+grep statistics in my files,content_search
+search for meeting notes,file_search
+look up data structures,web_search
+search gravity in my PDFs,content_search
+boot up Paint,open_app
+quit PowerPoint,close_app
+can you open Terminal,open_app
+shut down Edge,close_app
+find mentions of quantum,content_search
+tell me about history of the internet,web_search
+I want to open Firefox,open_app
+I want to open Slack,open_app
+start Discord,open_app
+condense final essay,summarize
+give me a summary of thesis draft,summarize
+where does velocity appear in my notes,content_search
+can you open Notepad,open_app
+get me thesis draft,file_search
+shut OBS Studio down,close_app
+please open PowerPoint,open_app
+set screen brightness to 80,brightness
+boot up PowerPoint,open_app
+pull up physics notes,file_search
+quit Paint,close_app
+start Firefox,open_app
+go ahead and open WhatsApp,open_app
+screen brightness,brightness
+dim the screen,brightness
+next window,window_mgmt
+I need physics notes,file_search
+terminate Excel,close_app
+go to github,open_url
+what is my battery level,system_info
+run Slack,open_app
+write this down: Finish chapter 7 tonight,active_typing
+look up who is Alan Turing,web_search
+summarise thesis draft,summarize
+timer for 20 minutes,timer
+recap exam timetable for me,summarize
+terminate Outlook,close_app
+jot down: Call mom at 5,active_typing
+start Teams,open_app
+Launch VLC,open_app
+kill Teams,close_app
+Open Discord for me,open_app
+1 hour timer,timer
+search define machine learning,web_search
+Open Spotify,open_app
+shut down Steam,close_app
+could you launch Paint,open_app
+end Calculator,close_app
+close File Explorer,close_app
+play the video,gui_control
+change brightness to 20,brightness
+who is who is Alan Turing,web_search
+type this: Finish chapter 7 tonight,active_typing
+terminate VS Code,close_app
+tile window left,window_mgmt
+help me find resume,file_search
+go to linkedin.com please,open_url
+search Newton in my homework,content_search
+wake me up in 30 seconds,timer
+start countdown 1 minute,timer
+pull up budget spreadsheet,file_search
+load instagram.com,open_url
+bring up VLC,open_app
+go ahead and open Paint,open_app
+head to amazon.com,open_url
+recap physics notes for me,summarize
+look up vue,web_search
+search for statistics in my notes,content_search
+google tensorflow,web_search
+boot up Steam,open_app
+make index.html in Downloads,create_file
+go ahead and open Steam,open_app
+search react,web_search
+check my battery,system_info
+note: Reminder: submit assignment,active_typing
+quit Calculator,close_app
+can you search what is quantum entanglement,web_search
+kill VS Code,close_app
+find my assignment 3,file_search
+break down final essay for me,summarize
+note this down: Reminder: submit assignment,active_typing
+please close WhatsApp,close_app
+look for velocity inside my files,content_search
+google cybersecurity,web_search
+open thesis draft,file_search
+can you close VS Code,close_app
+write this: Dentist appointment tomorrow,active_typing
+create a {0} file called {1} in {2},create_file
+timer for 45 seconds,timer
+set a timer for 3 minutes,timer
+scan my documents for algorithm,content_search
+brief me on presentation slides,summarize
+stop WhatsApp,close_app
+Close Outlook,close_app
+recap lab manual for me,summarize
+wake me up in 1 minute,timer
+close Spotify,close_app
+shut down WhatsApp,close_app
+fire up File Explorer,open_app
+Open Slack,open_app
+what is who is Alan Turing,web_search
+where is homework answers,file_search
+get me meeting notes,file_search
+search how to make pancakes,web_search
+can you summarize resume,summarize
+I need presentation slides,file_search
+take screenshot now,screenshot
+Close Paint,close_app
+type out: Lecture rescheduled to Thursday,active_typing
+search algorithm in my PDFs,content_search
+create main.java in Desktop,create_file
+find homework answers,file_search
+search linux,web_search
+Close Steam,close_app
+fire up Chrome,open_app
+go ahead and open Task Manager,open_app
+show me thesis draft,file_search
+open OBS Studio,open_app
+go to twitter.com please,open_url
+kill File Explorer,close_app
+can you search vue,web_search
+break down research paper for me,summarize
+search integration in my homework,content_search
+linux,web_search
+kill Edge,close_app
+please close Edge,close_app
+exit VS Code,close_app
+what is machine learning,web_search
+end Notepad,close_app
+bring up Discord,open_app
+get me lab manual,file_search
+start a 15 minutes timer,timer
+hit resume,gui_control
+how to latest Nobel Prize winners,web_search
+open linkedin.com in browser,open_url
+launch PowerPoint,open_app
+wake me up in 45 seconds,timer
+remind me in 2 minutes,timer
+TLDR of research paper,summarize
+look up derivative in my lecture notes,content_search
+create config.json in Desktop,create_file
+can you find homework answers,file_search
+look up what is photosynthesis,web_search
+Close Terminal,close_app
+where is budget spreadsheet,file_search
+react,web_search
+navigate to twitter.com,open_url
+head to github.com,open_url
+capture my screen,screenshot
+quit WhatsApp,close_app
+how to how to make pancakes,web_search
+force close Slack,close_app
+exit Terminal,close_app
+search derivative in my homework,content_search
+google history of the internet,web_search
+tell me about cybersecurity,web_search
+wake me up in half an hour,timer
+timer for 10 minutes,timer
+pull up thesis draft,file_search
+search the web for python,web_search
+find deadline in my documents,content_search
+90 seconds timer,timer
+tell me about define machine learning,web_search
+summarize my report,summarize
+kill Spotify,close_app
+shorten lecture slides,summarize
+can you lock the screen,system_power
+google best programming languages 2025,web_search
+could you launch Slack,open_app
+hibernate,system_power
+I want to open Telegram,open_app
+sleep mode,system_power
+find my presentation slides,file_search
+type: Buy groceries after class,active_typing
+can you search history of the internet,web_search
+summarise homework answers,summarize
+end Task Manager,close_app
+look for resume,file_search
+run Task Manager,open_app
+take me to github,open_url
+tell me about angular,web_search
+jot down: Dentist appointment tomorrow,active_typing
+how to Python list comprehension tutorial,web_search
+Open Chrome,open_app
+please close Outlook,close_app
+can you summarize exam timetable,summarize
+search homework answers,file_search
+please open Task Manager,open_app
+close PowerPoint for me,close_app
+brief me on final essay,summarize
+start a 20 minutes timer,timer
+search for velocity in my notes,content_search
+can you close Teams,close_app
+Launch Discord,open_app
+search the web for angular,web_search
+find mentions of derivative,content_search
+what is github,web_search
+boot up Edge,open_app
+set screen brightness to 30,brightness
+grep frequency in my files,content_search
+condense project proposal,summarize
+turn up brightness,brightness
+create a python file in Desktop called app,create_file
+search the web for who is Alan Turing,web_search
+recap presentation slides for me,summarize
+create {1}.{0} in {2},create_file
+type this: Pick up laundry at 6,active_typing
+please restart,system_power
+who is latest Nobel Prize winners,web_search
+recap my report for me,summarize
+write: Project deadline is next Monday,active_typing
+can you open Firefox,open_app
+I need Word open,open_app
+search java,web_search
+screen capture,screenshot
+shut Zoom down,close_app
+close VLC for me,close_app
+find out how to solve quadratic equations,web_search
+what does math cheat sheet say,summarize
+where does momentum appear in my notes,content_search
+stop Telegram,close_app
+note this down: Meeting at 3 PM,active_typing
+launch WhatsApp,open_app
+take me to twitter.com,open_url
+set screen brightness to 60,brightness
+stop Zoom,close_app
+shut down the computer,system_power
+tell me about thermodynamics,web_search
+search the web for machine learning,web_search
+timer for 2 minutes,timer
+search calculus,web_search
+close virtual desktop,window_mgmt
+look up Newton in my lecture notes,content_search
+grep machine learning in my files,content_search
+open up VLC,open_app
+close Firefox for me,close_app
+search the web for what is quantum entanglement,web_search
+quit Terminal,close_app
+open facebook.com,open_url
+go to twitter,open_url
+bring up Brave,open_app
+screen grab,screenshot
+10 minutes timer,timer
+go to sleep,system_power
+TLDR of final essay,summarize
+hit next track,gui_control
+Open PowerPoint for me,open_app
+Close Telegram,close_app
+I want to open Zoom,open_app
+summarize thesis draft,summarize
+Open Task Manager,open_app
+load facebook.com,open_url
+I need PowerPoint open,open_app
+quit Word,close_app
+write this down: Pick up laundry at 6,active_typing
+launch Telegram,open_app
+look up what is blockchain,web_search
+Launch Excel,open_app
+shorten research paper,summarize
+set a timer for 90 seconds,timer
+sign me out,system_power
+please open File Explorer,open_app
+shorten lab manual,summarize
+close Discord,close_app
+can you close Task Manager,close_app
+do a screenshot,screenshot
+start Word,open_app
+find resistance in my documents,content_search
+look up Python list comprehension tutorial,web_search
+turn volume down,gui_control
+please shut down,system_power
+can you open Paint,open_app
+who is python,web_search
+quit Task Manager,close_app
+open lecture slides,file_search
+count down from 15 minutes,timer
+save screen capture,screenshot
+look up what is a black hole,web_search
+kill Steam,close_app
+start a 10 minutes timer,timer
+start countdown half an hour,timer
+set timer 90 seconds,timer
+please close Task Manager,close_app
+open reddit.com in browser,open_url
+find my lecture slides,file_search
+bring up PowerPoint,open_app
+force close OBS Studio,close_app
+I want to close Notepad,close_app
+exit Excel,close_app
+browse to reddit.com,open_url
+visit stackoverflow.com,open_url
+can you find my report,file_search
+what is quantum entanglement,web_search
+start WhatsApp please,open_app
+brighter,brightness
+can you summarize project proposal,summarize
+scroll down,gui_control
+2 minutes timer,timer
+brief me on thesis draft,summarize
+find mentions of algorithm,content_search
+search resistance in my homework,content_search
+shut Word down,close_app
+go to reddit.com please,open_url
+launch Firefox,open_app
+open facebook.com in browser,open_url
+summarize presentation slides,summarize
+remind me in 90 seconds,timer
+Open Teams for me,open_app
+find out database,web_search
+can you find budget spreadsheet,file_search
+who is docker,web_search
+open up Telegram,open_app
+search data structures,web_search
+find lab manual,file_search
+minimise the window,window_mgmt
+what does resume say,summarize
+TLDR of homework answers,summarize
+please close Telegram,close_app
+type: Reminder: submit assignment,active_typing
+launch Discord,open_app
+pull up study guide,file_search
+look for study guide,file_search
+kill PowerPoint,close_app
+visit wikipedia.org,open_url
+remind me in 10 minutes,timer
+locate meeting notes,file_search
+who is vit,web_search
+search the web for linux,web_search
+search statistics in my homework,content_search
+break down meeting notes for me,summarize
+open Terminal,open_app
+set a timer for 1 minute,timer
+look up kubernetes,web_search
+Launch Firefox,open_app
+search the web for thermodynamics,web_search
+who is linux,web_search
+search for project proposal,file_search
+Open Firefox for me,open_app
+who is how to make pancakes,web_search
+how much storage do I have left,system_info
+brief me on meeting notes,summarize
+tell me about java,web_search
+who is how does GPS work,web_search
+Open Telegram for me,open_app
+look for physics notes,file_search
+stop Chrome,close_app
+look up cybersecurity,web_search
+can you find lab manual,file_search
+shut down Paint,close_app
+visit linkedin.com,open_url
+open up Firefox,open_app
+summarise exam timetable,summarize
+TLDR of budget spreadsheet,summarize
+find integration in my documents,content_search
+can you find study guide,file_search
+where does quantum appear in my notes,content_search
+I want to open Paint,open_app
+database,web_search
+look for gravity inside my files,content_search
+pull up my report,file_search
+countdown 90 seconds,timer
+search Newton in my PDFs,content_search
+open my physics notes,file_search
+show me exam timetable,file_search
+can you search linux,web_search
+I want a screenshot,screenshot
+force close Notepad,close_app
+can you search how to make pancakes,web_search
+how to how does Wi-Fi work,web_search
+count down from 3 minutes,timer
+neural networks,web_search
+summarise project proposal,summarize
+system information,system_info
+exit Brave,close_app
+find out who is Alan Turing,web_search
+Close Edge,close_app
+open my math cheat sheet,file_search
+sleep,system_power
+what is my IP address,system_info
+can you close OBS Studio,close_app
+locate lab manual,file_search
+how to what is photosynthesis,web_search
+bring up Teams,open_app
+open Edge,open_app
+shut down VS Code,close_app
+get me lecture slides,file_search
+what is thermodynamics,web_search
+30 seconds timer,timer
+search the web for how to solve quadratic equations,web_search
+I want to close Brave,close_app
+who is meaning of entropy,web_search
+find out latest Nobel Prize winners,web_search
+start Outlook please,open_app
+move window right,window_mgmt
+open twitter.com in browser,open_url
+fire up Calculator,open_app
+start Chrome,open_app
+shut down Spotify,close_app
+shut File Explorer down,close_app
+how bright is my screen,brightness
+summarize resume,summarize
+I need my report,file_search
+brightness 20%,brightness
+TLDR of meeting notes,summarize
+note this down: Finish chapter 7 tonight,active_typing
+find mentions of thermodynamics,content_search
+open up Edge,open_app
+please close OBS Studio,close_app
+capture this screen,screenshot
+type this: Reminder: submit assignment,active_typing
+change brightness to 100,brightness
+data structures,web_search
+go fullscreen,gui_control
+how much memory is free,system_info
+can you summarize math cheat sheet,summarize
+page down,gui_control
+scroll up please,gui_control
+where does frequency appear in my notes,content_search
+look up voltage in my lecture notes,content_search
+open Notepad,open_app
+tell me about what is a black hole,web_search
+grep gravity in my files,content_search
+can you close Zoom,close_app
+set brightness to 20,brightness
+who is kubernetes,web_search
+I want to close Slack,close_app
+quit Brave,close_app
+search frequency in my homework,content_search
+what is neural networks,web_search
+shorten math cheat sheet,summarize
+tell me about stackoverflow,web_search
+summarize research paper,summarize
+start countdown 45 seconds,timer
+grep resistance in my files,content_search
+quit Slack,close_app
+give me a summary of math cheat sheet,summarize
+brief me on homework answers,summarize
+start Teams please,open_app
+how to angular,web_search
+google define machine learning,web_search
+shut Excel down,close_app
+write: Pick up laundry at 6,active_typing
+open Word,open_app
+what is a black hole,web_search
+fire up Word,open_app
+search presentation slides,file_search
+I want to close Spotify,close_app
+search the web for what is photosynthesis,web_search
+close Outlook,close_app
+type this: Buy groceries after class,active_typing
+who is Alan Turing,web_search
+put to sleep,system_power
+recap assignment 3 for me,summarize
+meaning of entropy,web_search
+bring up Steam,open_app
+can you open Word,open_app
+lock my computer,system_power
+make this window full screen,window_mgmt
+help me find research paper,file_search
+take me to wikipedia.org,open_url
+start Telegram,open_app
+brief me on resume,summarize
+what is database,web_search
+write this down: Email professor about extension,active_typing
+break down math cheat sheet for me,summarize
+search momentum in my PDFs,content_search
+take me to github.com,open_url
+search derivative in my PDFs,content_search
+shorten study guide,summarize
+what is quantum physics,web_search
+I want to close Task Manager,close_app
+Launch Brave,open_app
+where is lab manual,file_search
+find my project proposal,file_search
+look up gravity in my lecture notes,content_search
+break down assignment 3 for me,summarize
+find out docker,web_search
+shut Paint down,close_app
+where is my report,file_search
+capture screen,screenshot
+can you open PowerPoint,open_app
+look up neural networks,web_search
+bring up Paint,open_app
+force close WhatsApp,close_app
+open netflix.com,open_url
+open my lecture slides,file_search
+tell me about pytorch,web_search
+brief me on exam timetable,summarize
+end Discord,close_app
+start Notepad,open_app
+tell me about data structures,web_search
+end Chrome,close_app
+force close File Explorer,close_app
+I need math cheat sheet,file_search
+stop PowerPoint,close_app
+set brightness to 90,brightness
+search who invented the transistor,web_search
+I need Brave open,open_app
+open my meeting notes,file_search
+open my report,file_search
+search javascript,web_search
+can you open Telegram,open_app
+google Python list comprehension tutorial,web_search
+summarize assignment 3,summarize
+can you open Brave,open_app
+quit Edge,close_app
+how to database,web_search
+shut down Word,close_app
+google calculus,web_search
+please open Edge,open_app
+shut down Slack,close_app
+brightness 90%,brightness
+cycle windows,window_mgmt
+Open Calculator,open_app
+how to java,web_search
+pytorch,web_search
+head to stackoverflow.com,open_url
+help me find final essay,file_search
+exit Slack,close_app
+TLDR of lecture slides,summarize
+open Calculator,open_app
+fire up Firefox,open_app
+look for statistics inside my files,content_search
+set screen brightness to 90,brightness
+go ahead and open Spotify,open_app
+run PowerPoint,open_app
+open my study guide,file_search
+show all windows,window_mgmt
+start countdown 5 minutes,timer
+search for Newton in my notes,content_search
+find math cheat sheet,file_search
+condense math cheat sheet,summarize
+open lab manual,file_search
+find mentions of voltage,content_search
+find statistics in my documents,content_search
+load youtube.com,open_url
+bring up Telegram,open_app
+close Edge,close_app
+head to google.com,open_url
+kill Chrome,close_app
+I need Terminal open,open_app
+grep voltage in my files,content_search
+Open Excel,open_app
+take a note: Email professor about extension,active_typing
+grep database in my files,content_search
+can you scroll up,gui_control
+minimize the window,window_mgmt
+stop Brave,close_app
+find mentions of database,content_search
+google thermodynamics,web_search
+get me project proposal,file_search
+start Word please,open_app
+recap study guide for me,summarize
+exit Paint,close_app
+log me out,system_power
+start countdown 30 seconds,timer
+open presentation slides,file_search
+volume down,gui_control
+I want to open Chrome,open_app
+I need Discord open,open_app
+find out stackoverflow,web_search
+Open Telegram,open_app
+start Edge please,open_app
+lock it,system_power
+find out what is blockchain,web_search
+grep deadline in my files,content_search
+exit Teams,close_app
+what is how to make pancakes,web_search
+search for derivative in my notes,content_search
+I need study guide,file_search
+give me a summary of final essay,summarize
+find resume,file_search
+help me find project proposal,file_search
+summarise my report,summarize
+jot down: Finish chapter 7 tonight,active_typing
+who is calculus,web_search
+open up Slack,open_app
+can you open Zoom,open_app
+get me budget spreadsheet,file_search
+Close Task Manager,close_app
+tell me about who invented the transistor,web_search
+I need assignment 3,file_search
+start Spotify please,open_app
+start Firefox please,open_app
+close Teams for me,close_app
+open up Spotify,open_app
+start countdown 90 seconds,timer
+boot up Excel,open_app
+stop Steam,close_app
+write this: Call mom at 5,active_typing
+count down from 10 minutes,timer
+set a timer for 30 seconds,timer
+run Firefox,open_app
+boot up Discord,open_app
+give me a summary of homework answers,summarize
+boot up Terminal,open_app
+hit volume down,gui_control
+boot up Calculator,open_app
+look for exam timetable,file_search
+search momentum in my homework,content_search
+I want to close WhatsApp,close_app
+stop Discord,close_app
+set an alarm for 45 seconds,timer
+make a text file named draft,create_file
+who is cybersecurity,web_search
+find mentions of machine learning,content_search
+find out how does GPS work,web_search
+search for resistance in my notes,content_search
+search the web for kubernetes,web_search
+open PowerPoint,open_app
+look up vit,web_search
+force close Terminal,close_app
+boot up File Explorer,open_app
+what is vue,web_search
+open study guide,file_search
+timer for 3 minutes,timer
+set an alarm for 1 minute,timer
+tell me about who is Alan Turing,web_search
+please close Word,close_app
+I need homework answers,file_search
+go ahead and open Excel,open_app
+launch Slack,open_app
+hit play,gui_control
+run Excel,open_app
+I need Notepad open,open_app
+create a javascript file called app in Desktop,create_file
+blockchain,web_search
+I want to open PowerPoint,open_app
+open my resume,file_search
+find out neural networks,web_search
+raise brightness,brightness
+close Notepad for me,close_app
+visit facebook,open_url
+kill Terminal,close_app
+can you search quantum physics,web_search
+take me to instagram.com,open_url
+change brightness to 40,brightness
+I want to close Discord,close_app
+open my research paper,file_search
+bring up Edge,open_app
+what does meeting notes say,summarize
+what is cloud computing,web_search
+boot up Outlook,open_app
+I need Spotify open,open_app
+run Brave,open_app
+disk usage,system_info
+tell me about vue,web_search
+how to what is quantum entanglement,web_search
+search meaning of entropy,web_search
+how to vue,web_search
+go ahead and open Edge,open_app
+go ahead and open Teams,open_app
+I want to close VS Code,close_app
+tell me about what is blockchain,web_search
+take a picture of my screen,screenshot
+get me physics notes,file_search
+screen shot please,screenshot
+80% brightness,brightness
+set brightness to 60,brightness
+exit Task Manager,close_app
+maximise this window,window_mgmt
+look for my report,file_search
+set an alarm for 30 seconds,timer
+search resistance in my PDFs,content_search
+I need budget spreadsheet,file_search
+note this down: Call mom at 5,active_typing
+less brightness,brightness
+brief me on math cheat sheet,summarize
+please open Spotify,open_app
+start Notepad please,open_app
+find my meeting notes,file_search
+boot up Task Manager,open_app
+start File Explorer please,open_app
+Open VS Code,open_app
+load netflix.com,open_url
+find my exam timetable,file_search
+create a yaml file called config in Documents,create_file
+Launch Teams,open_app
+what does project proposal say,summarize
+Open Zoom for me,open_app
+where is meeting notes,file_search
+open my lab manual,file_search
+Close OBS Studio,close_app
+can you search tensorflow,web_search
+type: Pick up laundry at 6,active_typing
+github,web_search
+look up what is quantum entanglement,web_search
+what is vit,web_search
+summarize study guide,summarize
+shut Outlook down,close_app
+press next track,gui_control
+open math cheat sheet,file_search
+who is blockchain,web_search
+write down: Finish chapter 7 tonight,active_typing
+search for frequency in my notes,content_search
+please close Notepad,close_app
+create a python file called notes in Desktop,create_file
+can you take a screenshot,screenshot
+exit Chrome,close_app
+quit File Explorer,close_app
+write this: Finish chapter 7 tonight,active_typing
+start PowerPoint please,open_app
+set an alarm for 15 minutes,timer
+could you launch Chrome,open_app
+take me to amazon.com,open_url
+browse to github.com,open_url
+pull up math cheat sheet,file_search
+boot up Zoom,open_app
+pull up assignment 3,file_search
+look up statistics in my lecture notes,content_search
+search cybersecurity,web_search
+close PowerPoint,close_app
+Launch VS Code,open_app
+remind me in 1 minute,timer
+can you summarize study guide,summarize
+open WhatsApp,open_app
+write this: Meeting at 3 PM,active_typing
+press previous track,gui_control
+force close Teams,close_app
+look up how to solve quadratic equations,web_search
+visit youtube.com,open_url
+open youtube,open_url
+full screen this window,window_mgmt
+search machine learning in my homework,content_search
+bring up Slack,open_app
+start countdown 3 minutes,timer
+end Word,close_app
+set timer 15 minutes,timer
+help me find exam timetable,file_search
+open Telegram,open_app
+find out who invented the transistor,web_search
+stop Edge,close_app
+Python list comprehension tutorial,web_search
+scan my documents for integration,content_search
+I want to visit stackoverflow.com,open_url
+load google.com,open_url
+search for acceleration in my notes,content_search
+next track,gui_control
+close Steam,close_app
+Open Edge,open_app
+create a cpp file called main in Documents,create_file
+search physics notes,file_search
+take a note: Lecture rescheduled to Thursday,active_typing
+memory usage,system_info
+close window,window_mgmt
+look up pytorch,web_search
+search the web for how does GPS work,web_search
+Open Slack for me,open_app
+new desktop,window_mgmt
+who is data structures,web_search
+force close Firefox,close_app
+stop Notepad,close_app
+bring up Terminal,open_app
+fire up Paint,open_app
+could you launch Edge,open_app
+start a half an hour timer,timer
+write this down: Lecture rescheduled to Thursday,active_typing
+kill Task Manager,close_app
+locate project proposal,file_search
+search algorithms,web_search
+what is calculus,web_search
+higher brightness,brightness
+how to stackoverflow,web_search
+make it dimmer,brightness
+help me find budget spreadsheet,file_search
+press resume,gui_control
+shutdown,system_power
+get me exam timetable,file_search
+open whatsapp web,open_url
+search for deadline in my notes,content_search
+terminate Slack,close_app
+find out machine learning,web_search
+what is history of the internet,web_search
+wake me up in 90 seconds,timer
+open resume,file_search
+give me a summary of resume,summarize
+suspend,system_power
+open project proposal,file_search
+Open Brave for me,open_app
+search for machine learning in my notes,content_search
+what is angular,web_search
+give me a summary of exam timetable,summarize
+please open Word,open_app
+find my resume,file_search
+boot up VS Code,open_app
+shorten physics notes,summarize
+locate research paper,file_search
+create a json file in Downloads called package,create_file
+find derivative in my documents,content_search
+look up thermodynamics,web_search
+find out data structures,web_search
+force close Steam,close_app
+get me homework answers,file_search
+note: Lecture rescheduled to Thursday,active_typing
+can you close Chrome,close_app
+navigate to amazon.com,open_url
+start Paint please,open_app
+search for fibonacci in my notes,content_search
+search for study guide,file_search
+search latest Nobel Prize winners,web_search
+google docker,web_search
+force close Task Manager,close_app
+google how does GPS work,web_search
+find out what is quantum entanglement,web_search
+load github.com,open_url
+head to wikipedia.org,open_url
+I need Telegram open,open_app
+can you find final essay,file_search
+open up Notepad,open_app
+where does database appear in my notes,content_search
+find my research paper,file_search
+fire up Zoom,open_app
+start Discord please,open_app
+I want to close Zoom,close_app
+set screen brightness to 20,brightness
+search pytorch,web_search
+go to facebook.com please,open_url
+scan my documents for acceleration,content_search
+new markdown file called readme in Documents,create_file
+I want to open Edge,open_app
+look up quantum physics,web_search
+quit Teams,close_app
+play,gui_control
+find out calculus,web_search
+fire up WhatsApp,open_app
+search for algorithm in my notes,content_search
+go to netflix.com,open_url
+condense thesis draft,summarize
+search vit,web_search
+go ahead and open Brave,open_app
+look up linux,web_search
+go ahead and open VS Code,open_app
+I need VLC open,open_app
+TLDR of study guide,summarize
+look for project proposal,file_search
+stop Teams,close_app
+search deadline in my PDFs,content_search
+what does presentation slides say,summarize
+who is cloud computing,web_search
+force close Spotify,close_app
+Open Notepad,open_app
+search frequency in my PDFs,content_search
+maximize the window,window_mgmt
+can you search vit,web_search
+locate final essay,file_search
+who is thermodynamics,web_search
+pause the video,gui_control
+shut Calculator down,close_app
+shut down,system_power
+start PowerPoint,open_app
+go to google.com,open_url
+count down from half an hour,timer
+can you find math cheat sheet,file_search
+locate assignment 3,file_search
+go ahead and open PowerPoint,open_app
+start Edge,open_app
+please open Firefox,open_app
+who is algorithms,web_search
+move window left,window_mgmt
+could you launch Word,open_app
+resume playback,gui_control
+I need Steam open,open_app
+kill Brave,close_app
+where is lecture slides,file_search
+get me math cheat sheet,file_search
+look for thermodynamics inside my files,content_search
+start WhatsApp,open_app
+close Word,close_app

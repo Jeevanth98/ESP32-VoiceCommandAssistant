@@ -19,23 +19,23 @@ import subprocess
 
 APP_REGISTRY: dict[str, tuple[str, str]] = {
     # ── Browsers ──────────────────────────────────────────────────────────
-    "chrome":           ("chrome",                                  "Google Chrome"),
-    "google chrome":    ("chrome",                                  "Google Chrome"),
-    "brave":            ("brave",                                   "Brave Browser"),
-    "firefox":          ("firefox",                                 "Mozilla Firefox"),
-    "edge":             ("msedge",                                  "Microsoft Edge"),
-    "microsoft edge":   ("msedge",                                  "Microsoft Edge"),
-    "opera":            ("opera",                                   "Opera"),
+    "chrome":           ("start chrome",                             "Google Chrome"),
+    "google chrome":    ("start chrome",                             "Google Chrome"),
+    "brave":            ("start brave",                              "Brave Browser"),
+    "firefox":          ("start firefox",                            "Mozilla Firefox"),
+    "edge":             ("start msedge",                             "Microsoft Edge"),
+    "microsoft edge":   ("start msedge",                             "Microsoft Edge"),
+    "opera":            ("start opera",                              "Opera"),
 
     # ── Communication ─────────────────────────────────────────────────────
     "whatsapp":         ("explorer.exe shell:AppsFolder\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App",  "WhatsApp"),
-    "telegram":         ("explorer.exe shell:AppsFolder\\TelegramMessenger.TelegramDesktop_t4vj0pshhgkwm!App", "Telegram"),
-    "discord":          ("discord",                                 "Discord"),
-    "zoom":             ("zoom",                                    "Zoom"),
+    "telegram":         ("start telegram",                           "Telegram"),
+    "discord":          ("start discord",                            "Discord"),
+    "zoom":             ("start zoom",                               "Zoom"),
     "teams":            ("explorer.exe shell:AppsFolder\\MicrosoftTeams_8wekyb3d8bbwe!MicrosoftTeams", "Microsoft Teams"),
     "microsoft teams":  ("explorer.exe shell:AppsFolder\\MicrosoftTeams_8wekyb3d8bbwe!MicrosoftTeams", "Microsoft Teams"),
-    "skype":            ("skype",                                   "Skype"),
-    "slack":            ("slack",                                   "Slack"),
+    "skype":            ("start skype",                              "Skype"),
+    "slack":            ("start slack",                              "Slack"),
 
     # ── Microsoft Office ──────────────────────────────────────────────────
     "word":             ("winword",                                 "Microsoft Word"),
@@ -80,8 +80,8 @@ APP_REGISTRY: dict[str, tuple[str, str]] = {
     "disk management":  ("diskmgmt.msc",                            "Disk Management"),
 
     # ── Media & Entertainment ─────────────────────────────────────────────
-    "spotify":          ("spotify",                                 "Spotify"),
-    "vlc":              ("vlc",                                     "VLC Media Player"),
+    "spotify":          ("start spotify",                            "Spotify"),
+    "vlc":              ("start vlc",                                "VLC Media Player"),
     "media player":     ("wmplayer",                                "Windows Media Player"),
     "movies & tv":      ("explorer.exe shell:AppsFolder\\Microsoft.ZuneVideo_8wekyb3d8bbwe!Microsoft.ZuneVideo", "Movies & TV"),
     "photos":           ("explorer.exe shell:AppsFolder\\Microsoft.Windows.Photos_8wekyb3d8bbwe!App", "Photos"),
@@ -178,24 +178,26 @@ def extract_app_name(raw_text: str) -> str:
 def execute(raw_text: str) -> str:
     """
     Parse the app name from *raw_text*, resolve it in the registry,
-    and launch it.
+    and launch it.  If the name isn't a known application, fall back to
+    file_search so that "open my physics notes" still works.
     """
     app_name = extract_app_name(raw_text)
     print(f"  [OPEN-APP] Looking up \"{app_name}\" …")
 
     result = _resolve_app(app_name)
     if result is None:
-        return (
-            f"I don't know how to open \"{app_name}\". "
-            f"Try saying the exact app name (e.g. 'open Chrome', 'open WhatsApp')."
-        )
+        # Not a known app — try fuzzy file search as a fallback
+        print(f"  [OPEN-APP] \"{app_name}\" not in app registry → falling back to file search")
+        from commands.file_search import execute as file_search_execute
+        return file_search_execute(app_name)
 
     launch_cmd, friendly_name = result
     print(f"  [OPEN-APP] Launching: {launch_cmd}  ({friendly_name})")
 
     try:
-        # shell=True handles protocol URIs (ms-settings:), .msc, and explorer.exe variants
-        subprocess.Popen(launch_cmd, shell=True)
+        # shell=True handles 'start', protocol URIs (ms-settings:), .msc, and explorer.exe variants
+        subprocess.Popen(launch_cmd, shell=True,
+                         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         return f"Opening {friendly_name}."
     except FileNotFoundError:
         return f"Could not find {friendly_name} on this computer. Is it installed?"

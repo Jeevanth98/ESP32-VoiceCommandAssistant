@@ -15,11 +15,12 @@ import urllib.parse
 
 
 # ─── Regex to strip the leading verb / filler ────────────────────────────────
+# Updated to handle short queries like "search vit" as well as "search what is vit"
 _QUERY_TRIGGER = re.compile(
     r"(?:search|google|look\s+up|what\s+is|what\s+are|who\s+is|who\s+are|"
     r"how\s+to|how\s+do|tell\s+me\s+about|find\s+out|search\s+for|"
-    r"search\s+about|look\s+for|define|meaning\s+of)\s*"
-    r"(?:for\s+|about\s+|on\s+)?(.+)",
+    r"search\s+about|look\s+for|define|meaning\s+of)\s+"
+    r"(?:for\s+|about\s+|on\s+|the\s+|a\s+)?(.+)",
     re.IGNORECASE,
 )
 
